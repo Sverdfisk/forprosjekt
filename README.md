@@ -6,7 +6,7 @@ Software -> src/
 
 
 ## Before commiting ANY changes to this repo, do the following (no exceptions):
-# **Requires python (python3) and pip (pip3)**. Make sure that python is installed in PATH!
+Download python(3). Make sure that it's in your PATH during installation!
 
 1. Clone the repo
 2. Open the repo in a CLI:
