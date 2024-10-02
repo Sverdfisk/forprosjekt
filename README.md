@@ -20,7 +20,7 @@ Everything beyond this assumes you're in the masteroppgave/ directory.
 
 3. run "pip3 install pre-commit".
 4. run "pre-commit install".
-5. run "pip install commtizen".
+5. run "pip install commitizen".
 
 Now you're done!
 
