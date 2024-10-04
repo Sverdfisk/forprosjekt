@@ -1,18 +1,16 @@
 /**
- * System Driver Source File
+ * RTOS Timer Interface Header File
  * 
- * @file system.c
+ * @file rtos_timer_interface.h
  * 
- * @ingroup systemdriver
+ * @defgroup rtos_timer_interface RTOS_TIMER_INTERFACE
  * 
- * @brief This file contains the API implementation for the System driver.
+ * @brief This file contains APIs for timer module.
  *
- * @version Driver Version 1.0.2
- *
- * @version Package Version 4.2.14
+ * @version RTOS Timer Version 1.1.0
 */
 /*
-ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
+© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -32,16 +30,30 @@
     THIS SOFTWARE.
 */
 
-#include "../system.h"
-
-void SYSTEM_Initialize(void)
+#ifndef RTOS_TIMER_INTERFACE_H
+#define	RTOS_TIMER_INTERFACE_H
+/**
+  Section: Included Files
+*/
+#include <stdbool.h>
+#include <stdint.h>
+       
+/**
+ @ingroup RTOS Timer Interface
+ @struct RTOS_TIMER_INTERFACE
+ @brief Structure containing the function pointers of RTOS Timer interface.
+*/
+struct RTOS_TIMER_INTERFACE 
 {
-    CLOCK_Initialize();
-    PIN_MANAGER_Initialize();
-    ADC0_Initialize();
-    TCB0_Initialize();
-    USART1_Initialize();
-    CPUINT_Initialize();
-    FreeRTOS_Initialize();
-}
+    void (*Initialize)(void);
+    void (*Deinitialize)(void);
+    void (*Start)(void);
+    void (*Stop)(void);
+    void (*PeriodSet)(size_t count);
+    size_t (*CounterGet)(void); 
+    void (*TimerInterruptCallbackRegister)(void (* CallbackHandler)(void));
+    void (*EnableTimerInterrupt)(void);
+    void (*DisableTimerInterrupt)(void);
+};
 
+#endif	/* RTOS_TIMER_INTERFACE_H */

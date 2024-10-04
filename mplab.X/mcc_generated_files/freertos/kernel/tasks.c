@@ -3661,9 +3661,11 @@ void vTaskStartScheduler( void )
         }
     }
     #endif /* configUSE_TIMERS */
-
+    
     if( xReturn == pdPASS )
+
     {
+
         /* freertos_tasks_c_additions_init() should only be called if the user
          * definable macro FREERTOS_TASKS_C_ADDITIONS_INIT() is defined, as that is
          * the only macro called by the function. */
@@ -3707,7 +3709,8 @@ void vTaskStartScheduler( void )
 
         /* The return value for xPortStartScheduler is not required
          * hence using a void datatype. */
-        ( void ) xPortStartScheduler();
+        int ret = xPortStartScheduler();
+
 
         /* In most cases, xPortStartScheduler() will not return. If it
          * returns pdTRUE then there was not enough heap memory available
@@ -3733,6 +3736,7 @@ void vTaskStartScheduler( void )
     ( void ) uxTopUsedPriority;
 
     traceRETURN_vTaskStartScheduler();
+    
 }
 /*-----------------------------------------------------------*/
 

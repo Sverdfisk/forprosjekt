@@ -10,7 +10,7 @@
   * @version TCB0 Driver Version 1.1.5
 */
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -32,23 +32,90 @@
 
 #include "../tcb0.h"
 
-const struct TMR_INTERFACE TCB0_Interface = {
+const struct RTOS_TIMER_INTERFACE TCB0_Interface = {
     .Initialize = TCB0_Initialize,
+    .Deinitialize = NULL,
     .Start = TCB0_Start,
     .Stop = TCB0_Stop,
-    .PeriodCountSet = TCB0_Write,
-    .TimeoutCallbackRegister = NULL,
-    .Tasks = TCB0_Tasks
+    .PeriodSet = TCB0_Write,
+    .CounterGet = TCB0_Read,
+    .TimerInterruptCallbackRegister = TCB0_CaptureCallbackRegister,
+    .EnableTimerInterrupt = TCB0_EnableCaptInterrupt,
+    .DisableTimerInterrupt = TCB0_DisableCaptInterrupt
 };
+
+// const struct TMR_INTERFACE TCB0_Interface = {
+//     .Initialize = TCB0_Initialize,
+//     .Start = TCB0_Start,
+//     .Stop = TCB0_Stop,
+//     .PeriodCountSet = TCB0_Write,
+//     .TimeoutCallbackRegister = NULL,
+//     .Tasks = NULL
+// };
 
 void (*TCB0_OVF_isr_cb)(void) = NULL;
 void (*TCB0_CAPT_isr_cb)(void) = NULL;
+void TCB0_CaptureCallbackRegister(TCB0_cb_t cb)
+{
+	TCB0_CAPT_isr_cb = cb;
+}
 
+ISR(TCB0_INT_vect, ISR_NAKED)
+{
+	/* Insert your TCB interrupt handling code */
+
+	/*
+	 *  The Capture interrupt flag is cleared by writing a 1 to it or when the
+	 *  Capture register is read in Capture mode
+	 */
+
+    portSAVE_CONTEXT();
+
+	if (TCB0.INTFLAGS & TCB_CAPT_bm)
+    {
+        if (TCB0_CAPT_isr_cb != NULL)
+        {
+            (*TCB0_CAPT_isr_cb)();
+        }
+
+        TCB0.INTFLAGS = TCB_CAPT_bm;
+    }
+
+    portRESTORE_CONTEXT();
+    asm volatile("reti");
+
+}
+
+// ISR(TCB0_INT_vect)
+// {
+// 	/* Insert your TCB interrupt handling code */
+
+// 	/*
+// 	 *  The Capture interrupt flag is cleared by writing a 1 to it or when the
+// 	 *  Capture register is read in Capture mode
+// 	 */
+// 	if (TCB0.INTFLAGS & TCB_CAPT_bm)
+//     {
+//         if (TCB0_CAPT_isr_cb != NULL)
+//         {
+//             (*TCB0_CAPT_isr_cb)();
+//         }
+
+//         TCB0.INTFLAGS = TCB_CAPT_bm;
+//     }
+
+// }
 
 void TCB0_Initialize(void)
 {
-    // CCMP 4; 
-    TCB0.CCMP = 0x4;
+    /*
+    this is from DA, may be needed
+    // CCMP 4000; 
+    TCB0.CCMP = 0xFA0;
+    */
+
+    // CCMP 4000; 
+    TCB0.CCMP = 0xFA0; 
 
     // CNT undefined; 
     TCB0.CNT = 0x0;
@@ -151,33 +218,3 @@ inline bool TCB0_IsOvfInterruptEnabled(void)
     return ((TCB0.INTCTRL & TCB_OVF_bm) > 0);
 }
 
-
-void TCB0_Tasks(void)
-{
-	/**
-	 * The interrupt flag is cleared by writing 1 to it, or when the Capture register
-	 * is read in Capture mode
-	 */
-	if(TCB0.INTFLAGS & TCB_CAPT_bm)
-    {
-        if (TCB0_CAPT_isr_cb != NULL)
-        {
-            (*TCB0_CAPT_isr_cb)();
-        }
-
-        TCB0.INTFLAGS = TCB_CAPT_bm;
-    }
-
-    /**
-	 * The Overflow interrupt flag is cleared by writing 1 to it.
-	 */
-	if(TCB0.INTFLAGS & TCB_OVF_bm)
-    {
-        if (TCB0_OVF_isr_cb != NULL)
-        {
-            (*TCB0_OVF_isr_cb)();
-        }
-
-        TCB0.INTFLAGS = TCB_OVF_bm;
-    }
-}

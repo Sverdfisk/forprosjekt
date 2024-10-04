@@ -43,6 +43,7 @@ extern "C" {
 #include "../system/utils/compiler.h"
 #include "config_bits.h"
 #include "../system/pins.h"
+#include "../adc/adc0.h"
 #include "../timer/tcb0.h"
 #include "../uart/usart1.h"
 #include "../system/interrupt.h"

@@ -58,16 +58,14 @@ static QueueHandle_t xQueue = NULL;
 #include <string.h>
 
 void FreeRTOS_Initialize(void){
-    //PORTF.OUTTGL = 0x4;
+//    //PORTF.OUTTGL = 0x4;
     PORTF.OUT= 0x4;
-    //(void) UART_PrintLoop(5); 
-    printf("hello shit2 \n\r");
-    PORTF.OUTCLR = 0x4;
-
+//    //(void) UART_PrintLoop(5); 
+//    printf("\n\nhello shit4 \n\r");
+    PORTF.OUTSET = 0x4;
     FreeRTOS_AppStart();
 
-    /* If all is well, the FreeRTOS user application will now be running, and the following
-    line will never be reached */
+    /* If all is well, the FreeRTOS user application will now be running, and the following line will never be reached */
     for( ;; );
 }
 
@@ -75,7 +73,6 @@ void  FreeRTOS_AppStart(void)
 {
    /* Create the queue. */
      xQueue = xQueueCreate( mainQUEUE_LENGTH, sizeof( uint32_t ) );
-     printf("queue created \n\r");
     if( xQueue != NULL )
     {
         /* Start the two tasks as described in the comments at the top of this
@@ -86,12 +83,11 @@ void  FreeRTOS_AppStart(void)
                     NULL,                               /* The parameter passed to the task - not used in this case. */
                     mainQUEUE_RECEIVE_TASK_PRIORITY,    /* The priority assigned to the task. */
                     NULL );                             /* The task handle is not required, so NULL is passed. */
-
         xTaskCreate( prvQueueSendTask, "TX", configMINIMAL_STACK_SIZE, NULL, mainQUEUE_SEND_TASK_PRIORITY, NULL );
-
         /* Start the tasks and timer running. */    
-        printf("pre schedule start \n\r");
         vTaskStartScheduler();
+     
+
     }
 
     /* If all is well, the scheduler will now be running, and the following
@@ -102,6 +98,8 @@ void  FreeRTOS_AppStart(void)
     more details on the FreeRTOS heap http://www.freertos.org/a00111.html.  The
     mode from which main() is called is set in the C start up code and must be
     a privileged mode (not user mode). */
+    printf("this should never be reached inside freertos appstart\r\n");
+
     for( ;; );
 }
 
