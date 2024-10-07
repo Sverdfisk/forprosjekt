@@ -7,13 +7,25 @@ c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_copy_data.o)
                               build/default/debug/mcc_generated_files/freertos/kernel/tasks.o (__do_copy_data)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
-                              C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o (exit)
+                              C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o (exit)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+                              build/default/debug/mcc_generated_files/adc/src/adc0.o (_printf_cdopuxX)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
                               build/default/debug/mcc_generated_files/freertos/freertos_interface.o (_printf_s)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__fmt_d_needed)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__fmt_o_needed)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
-                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o) (__fmt_s_needed)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__fmt_s_needed)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o) (__cvt_u)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__fmt_x_needed)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__pop_int_needed)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o) (__pad)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o) (__pad)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o) (fputc)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
@@ -26,18 +38,22 @@ c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../av
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o) (strlen)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o) (tolower)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o) (toupper)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o) (__errno_val)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o) (_Exit)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
-                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o) (__vfprintf)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__vfprintf)
+c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o) (__udivmodsi4)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
                               c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o) (_exit)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_prologue.o)
-                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o) (__prologue_saves__)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__prologue_saves__)
 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_epilogue.o)
-                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o) (__epilogue_restores__)
+                              c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o) (__epilogue_restores__)
 
 Allocating common symbols
 Common symbol       size              file
@@ -47,8 +63,8 @@ __errno_val         0x2               c:/program files/microchip/xc8/v2.50/avr/b
 
 Discarded input sections
 
- .data          0x0000000000000000        0x0 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
- .bss           0x0000000000000000        0x0 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .data          0x0000000000000000        0x0 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .bss           0x0000000000000000        0x0 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/examples/UART_Example/uart_example.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/examples/UART_Example/uart_example.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/examples/UART_Example/uart_example.o
@@ -58,6 +74,10 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .text.pvPortMalloc
+                0x0000000000000000      0x16c build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .text.vPortFree
+                0x0000000000000000       0xf2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .text.xPortGetFreeHeapSize
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .text.xPortGetMinimumEverFreeHeapSize
@@ -68,17 +88,54 @@ Discarded input sections
                 0x0000000000000000       0x5c build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .text.vPortGetHeapStats
                 0x0000000000000000       0xd8 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulFrees
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.pxEnd     0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.xStart    0x0000000000000000        0x4 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .bss.ucHeap    0x0000000000000000      0xc00 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_info    0x0000000000000000      0x974 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_abbrev  0x0000000000000000      0x23c build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_loc     0x0000000000000000      0x4db build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_aranges
+                0x0000000000000000       0x50 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_ranges  0x0000000000000000       0x40 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_line    0x0000000000000000      0x3f8 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_str     0x0000000000000000       0x76 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .debug_frame   0x0000000000000000       0xe0 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .text.pxPortInitialiseStack
+                0x0000000000000000       0x26 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .text.xPortStartScheduler
+                0x0000000000000000        0xe build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
  .text.vPortEndScheduler
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .text.vPortYield
                 0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
  .text.vPortYieldFromISR
                 0x0000000000000000        0x6 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_info    0x0000000000000000      0x4a8 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_abbrev  0x0000000000000000      0x116 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_loc     0x0000000000000000       0xc8 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_aranges
+                0x0000000000000000       0x40 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_ranges  0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_line    0x0000000000000000      0x268 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_str     0x0000000000000000       0x37 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+ .debug_frame   0x0000000000000000       0x64 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
- .debug_info    0x0000000000000000      0x288 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
+ .debug_info    0x0000000000000000      0x297 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
  .debug_abbrev  0x0000000000000000       0x1b build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
  .debug_aranges
                 0x0000000000000000       0x18 build/default/debug/mcc_generated_files/freertos/kernel/croutine.o
@@ -106,7 +163,7 @@ Discarded input sections
                 0x0000000000000000        0x8 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
  .text.vEventGroupClearBitsCallback
                 0x0000000000000000        0x8 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
- .debug_info    0x0000000000000000      0xcd1 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
+ .debug_info    0x0000000000000000      0xce0 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
  .debug_abbrev  0x0000000000000000      0x214 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
  .debug_loc     0x0000000000000000      0x955 build/default/debug/mcc_generated_files/freertos/kernel/event_groups.o
  .debug_aranges
@@ -119,17 +176,51 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/list.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/list.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .text.vListInitialise
+                0x0000000000000000       0x1c build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .text.vListInitialiseItem
+                0x0000000000000000        0x8 build/default/debug/mcc_generated_files/freertos/kernel/list.o
  .text.vListInsertEnd
                 0x0000000000000000       0x42 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .text.vListInsert
+                0x0000000000000000       0x62 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .text.uxListRemove
+                0x0000000000000000       0x4e build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_info    0x0000000000000000      0x5b2 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_abbrev  0x0000000000000000      0x116 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_loc     0x0000000000000000       0xb8 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_aranges
+                0x0000000000000000       0x40 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_ranges  0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_line    0x0000000000000000      0x24d build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_str     0x0000000000000000       0x2b build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+ .debug_frame   0x0000000000000000       0x88 build/default/debug/mcc_generated_files/freertos/kernel/list.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.prvIsQueueEmpty
+                0x0000000000000000       0x16 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.prvCopyDataToQueue
+                0x0000000000000000       0xbe build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x34 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.prvUnlockQueue
+                0x0000000000000000       0x9a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.xQueueGenericReset
+                0x0000000000000000       0xc6 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.xQueueGenericCreate
+                0x0000000000000000       0x84 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.xQueueGenericSend
+                0x0000000000000000      0x138 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueueCreateMutex
                 0x0000000000000000       0x34 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueueGenericSendFromISR
                 0x0000000000000000       0x84 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueueGiveFromISR
                 0x0000000000000000       0x70 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.xQueueReceive
+                0x0000000000000000      0x128 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueueSemaphoreTake
                 0x0000000000000000      0x190 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueuePeek
@@ -152,12 +243,28 @@ Discarded input sections
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.xQueueIsQueueFullFromISR
                 0x0000000000000000        0xe build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.vQueueAddToRegistry
+                0x0000000000000000       0x8a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.pcQueueGetName
                 0x0000000000000000       0x40 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.vQueueUnregisterQueue
                 0x0000000000000000       0x3c build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text.vQueueDelete
                 0x0000000000000000       0x16 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .text.vQueueWaitForMessageRestricted
+                0x0000000000000000       0x3a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .bss.xQueueRegistry
+                0x0000000000000000        0x8 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_info    0x0000000000000000     0x1f30 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_abbrev  0x0000000000000000      0x2aa build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_loc     0x0000000000000000     0x16d5 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_aranges
+                0x0000000000000000       0xf0 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_ranges  0x0000000000000000      0x128 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_line    0x0000000000000000      0xc66 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_str     0x0000000000000000      0x2b8 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+ .debug_frame   0x0000000000000000      0x390 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
@@ -205,7 +312,7 @@ Discarded input sections
                 0x0000000000000000        0x6 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .text.vStreamBufferSetStreamBufferNotificationIndex
                 0x0000000000000000        0x6 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
- .debug_info    0x0000000000000000     0x199e build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
+ .debug_info    0x0000000000000000     0x19ad build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .debug_abbrev  0x0000000000000000      0x246 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .debug_loc     0x0000000000000000     0x1597 build/default/debug/mcc_generated_files/freertos/kernel/stream_buffer.o
  .debug_aranges
@@ -218,18 +325,39 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x0000000000000000       0x38 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.prvIdleTask
+                0x0000000000000000       0x10 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000000000000000      0x116 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskCreate
+                0x0000000000000000      0x262 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskPrioritySet
                 0x0000000000000000      0x13e build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskResume
                 0x0000000000000000       0xf8 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .rodata        0x0000000000000000        0x5 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskStartScheduler
+                0x0000000000000000       0x9c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskEndScheduler
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskSuspendAll
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskGetTickCount
+                0x0000000000000000       0x14 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.xTaskGetTickCountFromISR
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.uxTaskGetNumberOfTasks
                 0x0000000000000000        0x6 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.pcTaskGetName
                 0x0000000000000000       0x10 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskIncrementTick
+                0x0000000000000000      0x232 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskResumeAll
+                0x0000000000000000      0x1c4 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskDelayUntil
+                0x0000000000000000       0x8e build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskDelay
                 0x0000000000000000       0x28 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.xTaskCatchUpTicks
@@ -238,18 +366,32 @@ Discarded input sections
                 0x0000000000000000       0xe2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskSuspend
                 0x0000000000000000       0xa4 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskPlaceOnEventList
+                0x0000000000000000       0x24 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskPlaceOnUnorderedEventList
                 0x0000000000000000       0x8c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskPlaceOnEventListRestricted
+                0x0000000000000000       0x92 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskRemoveFromEventList
+                0x0000000000000000      0x17c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskRemoveFromUnorderedEventList
                 0x0000000000000000      0x14e build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskSetTimeOutState
                 0x0000000000000000       0x20 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskInternalSetTimeOutState
+                0x0000000000000000       0x16 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskCheckForTimeOut
+                0x0000000000000000       0x72 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.vTaskMissedYield
+                0x0000000000000000        0x8 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.xTaskGetCurrentTaskHandle
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.xTaskGetSchedulerState
                 0x0000000000000000       0x1c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.xTaskPriorityInherit
                 0x0000000000000000      0x128 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .text.xTaskPriorityDisinherit
+                0x0000000000000000       0xc6 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.vTaskPriorityDisinheritAfterTimeout
                 0x0000000000000000       0xe6 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.uxTaskResetEventItemValue
@@ -270,9 +412,76 @@ Discarded input sections
                 0x0000000000000000       0x34 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text.ulTaskGenericNotifyValueClear
                 0x0000000000000000       0x68 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.uxSchedulerSuspended
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .rodata.uxTopUsedPriority
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xIdleTaskHandles
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.uxTaskNumber
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xNumOfOverflows
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xYieldPendings
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xPendedTicks
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xSchedulerRunning
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.uxTopReadyPriority
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xTickCount
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xSuspendedTaskList
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xPendingReadyList
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.pxDelayedTaskList
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xDelayedTaskList2
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.xDelayedTaskList1
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.pxReadyTasksLists
+                0x0000000000000000       0x24 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .bss.pxCurrentTCB
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_info    0x0000000000000000     0x29ef build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_abbrev  0x0000000000000000      0x354 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_loc     0x0000000000000000     0x1ed4 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_aranges
+                0x0000000000000000      0x170 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_ranges  0x0000000000000000      0x1e0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_line    0x0000000000000000     0x1260 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_str     0x0000000000000000      0x280 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+ .debug_frame   0x0000000000000000      0x578 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvInsertTimerInActiveList
+                0x0000000000000000       0x5e build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvReloadTimer
+                0x0000000000000000       0x48 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvProcessExpiredTimer
+                0x0000000000000000       0x56 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvSampleTimeNow
+                0x0000000000000000       0x84 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvTimerTask
+                0x0000000000000000      0x1d0 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .progmem.gcc_sw_table.prvTimerTask
+                0x0000000000000000       0x12 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .rodata        0x0000000000000000        0xd build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x0000000000000000       0x5e build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .text.xTimerCreateTimerTask
+                0x0000000000000000       0x44 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .text.xTimerCreate
                 0x0000000000000000       0x6e build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .text.xTimerGenericCommandFromTask
@@ -299,6 +508,30 @@ Discarded input sections
                 0x0000000000000000       0x12 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .text.vTimerSetTimerID
                 0x0000000000000000       0x12 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.xLastTime.4694
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.xTimerTaskHandle
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.xTimerQueue
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.pxOverflowTimerList
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.pxCurrentTimerList
+                0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.xActiveTimerList2
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .bss.xActiveTimerList1
+                0x0000000000000000        0x9 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_info    0x0000000000000000     0x1682 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_abbrev  0x0000000000000000      0x324 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_loc     0x0000000000000000      0xb8a build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_aranges
+                0x0000000000000000       0xb8 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_ranges  0x0000000000000000       0xf8 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_line    0x0000000000000000      0x630 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_str     0x0000000000000000      0x23d build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+ .debug_frame   0x0000000000000000      0x22c build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
@@ -308,7 +541,7 @@ Discarded input sections
                 0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .text.vParTestToggleLED
                 0x0000000000000000       0x1a build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
- .debug_info    0x0000000000000000      0x3b7 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
+ .debug_info    0x0000000000000000      0x3c6 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .debug_abbrev  0x0000000000000000       0x8c build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .debug_loc     0x0000000000000000       0x84 build/default/debug/mcc_generated_files/freertos/support_files/common/partest.o
  .debug_aranges
@@ -332,7 +565,7 @@ Discarded input sections
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
  .bss.xRegTestError
                 0x0000000000000000        0x1 build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
- .debug_info    0x0000000000000000      0x495 build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
+ .debug_info    0x0000000000000000      0x4a4 build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
  .debug_abbrev  0x0000000000000000      0x108 build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
  .debug_aranges
                 0x0000000000000000       0x38 build/default/debug/mcc_generated_files/freertos/support_files/common/regtest.o
@@ -354,7 +587,7 @@ Discarded input sections
                 0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
  .text.vSerialPutString
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
- .debug_info    0x0000000000000000      0x596 build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
+ .debug_info    0x0000000000000000      0x5a5 build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
  .debug_abbrev  0x0000000000000000      0x159 build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
  .debug_loc     0x0000000000000000      0x1e8 build/default/debug/mcc_generated_files/freertos/support_files/common/serial.o
  .debug_aranges
@@ -367,6 +600,26 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .rodata        0x0000000000000000       0x5f build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .text.prvQueueSendTask
+                0x0000000000000000       0x5c build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .text.prvQueueReceiveTask
+                0x0000000000000000       0x60 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .text.FreeRTOS_AppStart
+                0x0000000000000000       0x74 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .text.FreeRTOS_Initialize
+                0x0000000000000000       0x1a build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .bss.xQueue    0x0000000000000000        0x2 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_info    0x0000000000000000      0x875 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_abbrev  0x0000000000000000      0x14a build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_loc     0x0000000000000000       0x4c build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_aranges
+                0x0000000000000000       0x38 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_ranges  0x0000000000000000       0x28 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_line    0x0000000000000000      0x2a6 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_str     0x0000000000000000       0x83 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .comment       0x0000000000000000       0x30 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+ .debug_frame   0x0000000000000000       0x90 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/uart/src/usart0.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/uart/src/usart0.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/uart/src/usart0.o
@@ -448,6 +701,8 @@ Discarded input sections
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/system/src/pins.o
  .text.IO_PD6_SetInterruptHandler
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/system/src/pins.o
+ .text.IO_PD0_SetInterruptHandler
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/system/src/pins.o
  .text.IO_PF2_SetInterruptHandler
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/system/src/pins.o
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/system/src/protected_io.o
@@ -469,6 +724,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .text.TCB0_Start
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .text.TCB0_Stop
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .text.TCB0_Write
@@ -477,6 +734,8 @@ Discarded input sections
                 0x0000000000000000       0x3a build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .text.TCB0_Read
                 0x0000000000000000        0xa build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .text.TCB0_EnableCaptInterrupt
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .text.TCB0_EnableOvfInterrupt
                 0x0000000000000000        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .text.TCB0_DisableCaptInterrupt
@@ -546,11 +805,46 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/main.o
  .data          0x0000000000000000        0x0 build/default/debug/main.o
  .bss           0x0000000000000000        0x0 build/default/debug/main.o
+ .text          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .data          0x0000000000000000        0x0 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .bss           0x0000000000000000        0x0 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_Enable
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_Disable
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_SetWindowHigh
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_SetWindowLow
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_SetWindowMode
+                0x0000000000000000        0x6 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_SetWindowChannel
+                0x0000000000000000        0xc build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_StopConversion
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_GetConversionResult
+                0x0000000000000000        0xe build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_GetConversionSample
+                0x0000000000000000        0xe build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_GetWindowResult
+                0x0000000000000000       0x12 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_GetResolution
+                0x0000000000000000        0x8 build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_SampleReadyCallbackRegister
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_ResultReadyCallbackRegister
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
+ .text.ADC0_ErrorCallbackRegister
+                0x0000000000000000        0xa build/default/debug/mcc_generated_files/adc/src/adc0.o
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
  .text.libgcc.mul
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000000000       0x28 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
  .stack.descriptors
                 0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
  .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
@@ -569,8 +863,11 @@ Discarded input sections
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
  .text.libgcc.div
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000000000        0xc c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
  .text.libgcc.prologue
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
  .stack.descriptors
                 0x0000000000000000       0x1c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
  .text.libgcc.builtins
@@ -600,18 +897,57 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
  .stack.descriptors
                 0x0000000000000000       0x73 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .stack.descriptors
+                0x0000000000000000       0x3a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .text.__sio_printf_doux
+                0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
  .stack.descriptors
                 0x0000000000000000       0x37 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .text.__wrap_printf
+                0x0000000000000000       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
  .text.__sio_printf_s
                 0x0000000000000000        0x6 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .comment       0x0000000000000000       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
  .stack.descriptors
                 0x0000000000000000       0x15 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .stack.descriptors
+                0x0000000000000000       0x2a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
+ .stack.descriptors
+                0x0000000000000000       0x17 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
@@ -636,11 +972,23 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
  .stack.descriptors
                 0x0000000000000000       0x14 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
+ .text.memcpy   0x0000000000000000       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
+ .comment       0x0000000000000000       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
  .stack.descriptors
                 0x0000000000000000       0x14 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
+ .text.memset   0x0000000000000000       0x12 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
+ .comment       0x0000000000000000       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
@@ -653,6 +1001,13 @@ Discarded input sections
                 0x0000000000000000       0x2e c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
  .text.__tolower_l
                 0x0000000000000000        0x6 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+ .stack.descriptors
+                0x0000000000000000       0x2e c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+ .text.__toupper_l
+                0x0000000000000000        0x6 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
@@ -666,6 +1021,22 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
  .stack.descriptors
                 0x0000000000000000       0x18 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
@@ -730,7 +1101,7 @@ Linker script and memory map
 
 Address of section .data set to 0x806000
                 0x0000000000008000                __RODATA_PM_OFFSET__ = 0x8000
-LOAD C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+LOAD C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
                 0x0000000000000001                __MPLAB_BUILD = 0x1
 LOAD build/default/debug/mcc_generated_files/examples/UART_Example/uart_example.o
 LOAD build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
@@ -756,6 +1127,7 @@ LOAD build/default/debug/mcc_generated_files/system/src/interrupt.o
 LOAD build/default/debug/mcc_generated_files/timer/src/tcb0.o
 LOAD build/default/debug/mcc_generated_files/uart/src/usart1.o
 LOAD build/default/debug/main.o
+LOAD build/default/debug/mcc_generated_files/adc/src/adc0.o
 START GROUP
 LOAD c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libm.a
 END GROUP
@@ -765,7 +1137,7 @@ START GROUP
 LOAD c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a
 LOAD c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libm.a
 LOAD c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a
-LOAD C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped\libavr64du32.a
+LOAD C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped\libavr64du32.a
 END GROUP
                 [0x0000000000000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
                 [0x0000000000806000]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x802000
@@ -868,55 +1240,53 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0x12a
+.text           0x0000000000000000      0x10c
  *(.vectors)
- .vectors       0x0000000000000000       0x88 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .vectors       0x0000000000000000       0x88 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
                 0x0000000000000000                __vector_default
                 0x0000000000000000                __vectors
  *(.vectors)
  *(.progmem.gcc*)
- .progmem.gcc_sw_table.prvTimerTask
-                0x0000000000000088       0x12 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
  *(.dinit)
- .dinit         0x000000000000009a       0x29 data_init
-                0x00000000000000c4                . = ALIGN (0x2)
- *fill*         0x00000000000000c3        0x1 
-                0x00000000000000c4                __trampolines_start = .
+ .dinit         0x0000000000000088       0x1d data_init
+                0x00000000000000a6                . = ALIGN (0x2)
+ *fill*         0x00000000000000a5        0x1
+                0x00000000000000a6                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x00000000000000c4        0x0 linker stubs
+ .trampolines   0x00000000000000a6        0x0 linker stubs
  *(.trampolines*)
-                0x00000000000000c4                __trampolines_end = .
+                0x00000000000000a6                __trampolines_end = .
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
-                0x00000000000000c4                . = ALIGN (0x2)
+                0x00000000000000a6                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000000000000c4                __ctors_start = .
+                0x00000000000000a6                __ctors_start = .
  *(.ctors)
-                0x00000000000000c4                __ctors_end = .
-                0x00000000000000c4                __dtors_start = .
+                0x00000000000000a6                __ctors_end = .
+                0x00000000000000a6                __dtors_start = .
  *(.dtors)
-                0x00000000000000c4                __dtors_end = .
+                0x00000000000000a6                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000000000000c4        0x0 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
-                0x00000000000000c4                __init
+ .init0         0x00000000000000a6        0x0 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+                0x00000000000000a6                __init
  *(.init0)
  *(.init1)
- .init1         0x00000000000000c4       0x12 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .init1         0x00000000000000a6       0x12 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
  *(.init1)
  *(.init2)
- .init2         0x00000000000000d6        0xc C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .init2         0x00000000000000b8        0xc C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000000000000e2       0x3c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_copy_data.o)
-                0x00000000000000e2                __do_copy_data
-                0x0000000000000110                __do_clear_bss
+ .init4         0x00000000000000c4       0x3c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_copy_data.o)
+                0x00000000000000c4                __do_copy_data
+                0x00000000000000f2                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -927,12 +1297,12 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000000000011e        0x8 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .init9         0x0000000000000100        0x8 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
  *(.init9)
-                0x0000000000000126                . = ALIGN (0x2)
+                0x0000000000000108                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000000126        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
-                0x0000000000000126                _exit
+ .fini9         0x0000000000000108        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
+                0x0000000000000108                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -951,11 +1321,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000000126        0x4 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
+ .fini0         0x0000000000000108        0x4 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
  *(.fini0)
-                0x000000000000012a                _etext = .
+                0x000000000000010c                _etext = .
 
-.data           0x0000000000806000        0x0 load address 0x000000000000012a
+.data           0x0000000000806000        0x0 load address 0x000000000000010c
                 [!provide]                        PROVIDE (__data_start, .)
  *(.gnu.linkonce.d*)
  *(.gnu.linkonce.r*)
@@ -969,8 +1339,8 @@ END GROUP
  COMMON         0x0000000000806000        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
                 0x0000000000806000                __errno_val
                 [!provide]                        PROVIDE (__bss_end, .)
-                0x000000000000012a                __data_load_start = LOADADDR (.data)
-                0x000000000000012a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000000000000010c                __data_load_start = LOADADDR (.data)
+                0x000000000000010c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0000000000806002        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
@@ -1022,15 +1392,8 @@ END GROUP
 
 .comment        0x0000000000000000       0x5b
  *(.comment)
- .comment       0x0000000000000000       0x2f build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+ .comment       0x0000000000000000       0x2f build/default/debug/mcc_generated_files/uart/src/usart0.o
                                          0x30 (size before relaxing)
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/uart/src/usart0.o
  .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/system/src/system.o
  .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/system/src/pins.o
  .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/system/src/config_bits.o
@@ -1039,64 +1402,85 @@ END GROUP
  .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/uart/src/usart1.o
  .comment       0x000000000000002f       0x30 build/default/debug/main.o
+ .comment       0x000000000000002f       0x30 build/default/debug/mcc_generated_files/adc/src/adc0.o
  .comment       0x000000000000002f       0x2c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
                                          0x2d (size before relaxing)
- .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
- .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
- .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
+ .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
  .comment       0x000000000000005b       0x2d c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
 
 .stack.descriptors.hdr
-                0x0000000000000000       0xe0
+                0x0000000000000000      0x10a
  .stack.descriptors.hdr
-                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
+                0x0000000000000000        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
  .stack.descriptors.hdr
-                0x000000000000000e        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
+                0x000000000000000e        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
  .stack.descriptors.hdr
-                0x000000000000001c        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+                0x000000000000001c        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
  .stack.descriptors.hdr
-                0x000000000000002a        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+                0x000000000000002a        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
  .stack.descriptors.hdr
                 0x0000000000000038        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
  .stack.descriptors.hdr
-                0x0000000000000046        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x0000000000000046        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
  .stack.descriptors.hdr
-                0x0000000000000054        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
+                0x0000000000000054        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
  .stack.descriptors.hdr
-                0x0000000000000062        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
+                0x0000000000000062        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
  .stack.descriptors.hdr
-                0x0000000000000070        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
+                0x0000000000000070        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
  .stack.descriptors.hdr
-                0x000000000000007e        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
+                0x000000000000007e        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
  .stack.descriptors.hdr
-                0x000000000000008c        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
+                0x000000000000008c        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
  .stack.descriptors.hdr
-                0x000000000000009a        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
+                0x000000000000009a        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
  .stack.descriptors.hdr
-                0x00000000000000a8        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
+                0x00000000000000a8        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
  .stack.descriptors.hdr
-                0x00000000000000b6        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
+                0x00000000000000b6        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
  .stack.descriptors.hdr
-                0x00000000000000c4        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
+                0x00000000000000c4        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
  .stack.descriptors.hdr
-                0x00000000000000d2        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
+                0x00000000000000d2        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
+ .stack.descriptors.hdr
+                0x00000000000000e0        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
+ .stack.descriptors.hdr
+                0x00000000000000ee        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors.hdr
+                0x00000000000000fc        0xe c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_exit.o)
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
  .note.GNU-stack
-                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
  .note.GNU-stack
@@ -1104,13 +1488,11 @@ END GROUP
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
  .note.GNU-stack
-                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
- .note.GNU-stack
-                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
- .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(errno.o)
  .note.GNU-stack
@@ -1133,160 +1515,112 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x800
+.debug_aranges  0x0000000000000000      0x4b0
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x50 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
+                0x0000000000000000      0x130 build/default/debug/mcc_generated_files/uart/src/usart0.o
  .debug_aranges
-                0x0000000000000050       0x40 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
+                0x0000000000000130       0x20 build/default/debug/mcc_generated_files/system/src/system.o
  .debug_aranges
-                0x0000000000000090       0x40 build/default/debug/mcc_generated_files/freertos/kernel/list.o
+                0x0000000000000150       0x80 build/default/debug/mcc_generated_files/system/src/pins.o
  .debug_aranges
-                0x00000000000000d0       0xf0 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+                0x00000000000001d0       0x20 build/default/debug/mcc_generated_files/system/src/protected_io.o
  .debug_aranges
-                0x00000000000001c0      0x170 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+                0x00000000000001f0       0x18 build/default/debug/mcc_generated_files/system/src/config_bits.o
  .debug_aranges
-                0x0000000000000330       0xb8 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+                0x0000000000000208       0x30 build/default/debug/mcc_generated_files/system/src/clock.o
  .debug_aranges
-                0x00000000000003e8       0x38 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+                0x0000000000000238       0x20 build/default/debug/mcc_generated_files/system/src/interrupt.o
  .debug_aranges
-                0x0000000000000420      0x130 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000000258       0x98 build/default/debug/mcc_generated_files/timer/src/tcb0.o
  .debug_aranges
-                0x0000000000000550       0x20 build/default/debug/mcc_generated_files/system/src/system.o
+                0x00000000000002f0       0xe0 build/default/debug/mcc_generated_files/uart/src/usart1.o
  .debug_aranges
-                0x0000000000000570       0x70 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x00000000000003d0       0x20 build/default/debug/main.o
  .debug_aranges
-                0x00000000000005e0       0x20 build/default/debug/mcc_generated_files/system/src/protected_io.o
- .debug_aranges
-                0x0000000000000600       0x18 build/default/debug/mcc_generated_files/system/src/config_bits.o
- .debug_aranges
-                0x0000000000000618       0x30 build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_aranges
-                0x0000000000000648       0x20 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_aranges
-                0x0000000000000668       0x98 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_aranges
-                0x0000000000000700       0xe0 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_aranges
-                0x00000000000007e0       0x20 build/default/debug/main.o
+                0x00000000000003f0       0xc0 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0xef73
+.debug_info     0x0000000000000000     0x8630
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000     0x1e0a C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
- .debug_info    0x0000000000001e0a      0x965 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_info    0x000000000000276f      0x499 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_info    0x0000000000002c08      0x5a3 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_info    0x00000000000031ab     0x1f21 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_info    0x00000000000050cc     0x29e0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_info    0x0000000000007aac     0x1673 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_info    0x000000000000911f      0x866 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_info    0x0000000000009985     0x1224 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_info    0x000000000000aba9      0x338 build/default/debug/mcc_generated_files/system/src/system.o
- .debug_info    0x000000000000aee1      0x8b5 build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_info    0x000000000000b796       0x81 build/default/debug/mcc_generated_files/system/src/protected_io.o
- .debug_info    0x000000000000b817      0xa01 build/default/debug/mcc_generated_files/system/src/config_bits.o
- .debug_info    0x000000000000c218      0xf8c build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_info    0x000000000000d1a4      0x3f3 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_info    0x000000000000d597      0x7f4 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_info    0x000000000000dd8b      0xf47 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_info    0x000000000000ecd2      0x2a1 build/default/debug/main.o
+ .debug_info    0x0000000000000000     0x1e0a C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .debug_info    0x0000000000001e0a     0x1233 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_info    0x000000000000303d      0x5e7 build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_info    0x0000000000003624      0x983 build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_info    0x0000000000003fa7       0x8d build/default/debug/mcc_generated_files/system/src/protected_io.o
+ .debug_info    0x0000000000004034      0xa10 build/default/debug/mcc_generated_files/system/src/config_bits.o
+ .debug_info    0x0000000000004a44      0xf9b build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_info    0x00000000000059df      0x402 build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_info    0x0000000000005de1      0x803 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_info    0x00000000000065e4      0xf56 build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_info    0x000000000000753a      0x2b0 build/default/debug/main.o
+ .debug_info    0x00000000000077ea      0xe46 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
-.debug_abbrev   0x0000000000000000     0x37c8
+.debug_abbrev   0x0000000000000000     0x2bb7
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000     0x1c72 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
- .debug_abbrev  0x0000000000001c72      0x23c build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_abbrev  0x0000000000001eae      0x116 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_abbrev  0x0000000000001fc4      0x116 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_abbrev  0x00000000000020da      0x2aa build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_abbrev  0x0000000000002384      0x354 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_abbrev  0x00000000000026d8      0x324 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_abbrev  0x00000000000029fc      0x14a build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_abbrev  0x0000000000002b46      0x2f5 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_abbrev  0x0000000000002e3b       0x58 build/default/debug/mcc_generated_files/system/src/system.o
- .debug_abbrev  0x0000000000002e93      0x14a build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_abbrev  0x0000000000002fdd       0x14 build/default/debug/mcc_generated_files/system/src/protected_io.o
- .debug_abbrev  0x0000000000002ff1       0xd7 build/default/debug/mcc_generated_files/system/src/config_bits.o
- .debug_abbrev  0x00000000000030c8      0x135 build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_abbrev  0x00000000000031fd       0xfa build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_abbrev  0x00000000000032f7      0x19d build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_abbrev  0x0000000000003494      0x2d7 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_abbrev  0x000000000000376b       0x5d build/default/debug/main.o
+ .debug_abbrev  0x0000000000000000     0x1c72 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .debug_abbrev  0x0000000000001c72      0x2f5 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_abbrev  0x0000000000001f67       0xbe build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_abbrev  0x0000000000002025      0x14a build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_abbrev  0x000000000000216f       0x14 build/default/debug/mcc_generated_files/system/src/protected_io.o
+ .debug_abbrev  0x0000000000002183       0xd7 build/default/debug/mcc_generated_files/system/src/config_bits.o
+ .debug_abbrev  0x000000000000225a      0x135 build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_abbrev  0x000000000000238f       0xfa build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_abbrev  0x0000000000002489      0x19d build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_abbrev  0x0000000000002626      0x2d7 build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_abbrev  0x00000000000028fd       0x5d build/default/debug/main.o
+ .debug_abbrev  0x000000000000295a      0x25d build/default/debug/mcc_generated_files/adc/src/adc0.o
 
-.debug_line     0x0000000000000000     0x4a43
+.debug_line     0x0000000000000000     0x1ed4
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x0000000000000000      0x19e C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
- .debug_line    0x000000000000019e      0x3f8 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_line    0x0000000000000596      0x25c build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_line    0x00000000000007f2      0x24d build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_line    0x0000000000000a3f      0xc66 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_line    0x00000000000016a5     0x1260 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_line    0x0000000000002905      0x630 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_line    0x0000000000002f35      0x2a3 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_line    0x00000000000031d8      0x6b3 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_line    0x000000000000388b      0x17a build/default/debug/mcc_generated_files/system/src/system.o
- .debug_line    0x0000000000003a05      0x340 build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_line    0x0000000000003d45       0x73 build/default/debug/mcc_generated_files/system/src/protected_io.o
- .debug_line    0x0000000000003db8       0xef build/default/debug/mcc_generated_files/system/src/config_bits.o
- .debug_line    0x0000000000003ea7      0x1bc build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_line    0x0000000000004063      0x188 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_line    0x00000000000041eb      0x306 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_line    0x00000000000044f1      0x4f1 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_line    0x00000000000049e2       0x61 build/default/debug/main.o
+ .debug_line    0x0000000000000000      0x19e C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .debug_line    0x000000000000019e      0x6b6 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_line    0x0000000000000854      0x219 build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_line    0x0000000000000a6d      0x37d build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_line    0x0000000000000dea       0x73 build/default/debug/mcc_generated_files/system/src/protected_io.o
+ .debug_line    0x0000000000000e5d       0xf2 build/default/debug/mcc_generated_files/system/src/config_bits.o
+ .debug_line    0x0000000000000f4f      0x1bf build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_line    0x000000000000110e      0x18b build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_line    0x0000000000001299      0x309 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_line    0x00000000000015a2      0x4f4 build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_line    0x0000000000001a96       0x61 build/default/debug/main.o
+ .debug_line    0x0000000000001af7      0x3dd build/default/debug/mcc_generated_files/adc/src/adc0.o
 
-.debug_frame    0x0000000000000000     0x1540
+.debug_frame    0x0000000000000000      0xa38
  *(.debug_frame)
- .debug_frame   0x0000000000000000       0xe0 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_frame   0x00000000000000e0       0x64 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_frame   0x0000000000000144       0x88 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_frame   0x00000000000001cc      0x390 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_frame   0x000000000000055c      0x578 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_frame   0x0000000000000ad4      0x22c build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_frame   0x0000000000000d00       0x90 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_frame   0x0000000000000d90      0x2e0 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_frame   0x0000000000001070       0x24 build/default/debug/mcc_generated_files/system/src/system.o
- .debug_frame   0x0000000000001094      0x160 build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_frame   0x00000000000011f4       0x44 build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_frame   0x0000000000001238       0x24 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_frame   0x000000000000125c      0x114 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_frame   0x0000000000001370      0x1ac build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_frame   0x000000000000151c       0x24 build/default/debug/main.o
+ .debug_frame   0x0000000000000000      0x2e0 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_frame   0x00000000000002e0       0x24 build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_frame   0x0000000000000304      0x180 build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_frame   0x0000000000000484       0x44 build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_frame   0x00000000000004c8       0x24 build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_frame   0x00000000000004ec      0x114 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_frame   0x0000000000000600      0x1ac build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_frame   0x00000000000007ac       0x24 build/default/debug/main.o
+ .debug_frame   0x00000000000007d0      0x268 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
-.debug_str      0x0000000000000000     0x16a4
+.debug_str      0x0000000000000000      0xdfb
  *(.debug_str)
- .debug_str     0x0000000000000000      0xcdc C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
- .debug_str     0x0000000000000cdc       0x76 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_str     0x0000000000000d52       0x37 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_str     0x0000000000000d89       0x2b build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_str     0x0000000000000db4      0x2b8 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_str     0x000000000000106c      0x280 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_str     0x00000000000012ec      0x23d build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_str     0x0000000000001529       0x83 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_str     0x00000000000015ac       0x10 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_str     0x00000000000015bc       0x70 build/default/debug/mcc_generated_files/system/src/system.o
- .debug_str     0x000000000000162c       0x30 build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_str     0x000000000000165c        0x0 build/default/debug/mcc_generated_files/system/src/config_bits.o
- .debug_str     0x000000000000165c       0x13 build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_str     0x000000000000166f       0x13 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_str     0x0000000000001682        0x0 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_str     0x0000000000001682       0x10 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_str     0x0000000000001692       0x12 build/default/debug/main.o
+ .debug_str     0x0000000000000000      0xcdc C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+ .debug_str     0x0000000000000cdc       0x10 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_str     0x0000000000000cec       0x7f build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_str     0x0000000000000d6b       0x30 build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_str     0x0000000000000d9b        0x0 build/default/debug/mcc_generated_files/system/src/config_bits.o
+ .debug_str     0x0000000000000d9b       0x13 build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_str     0x0000000000000dae       0x13 build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_str     0x0000000000000dc1        0x0 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_str     0x0000000000000dc1       0x10 build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_str     0x0000000000000dd1       0x12 build/default/debug/main.o
+ .debug_str     0x0000000000000de3       0x18 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
-.debug_loc      0x0000000000000000     0x4bfd
+.debug_loc      0x0000000000000000      0x4a1
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0x4db build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_loc     0x00000000000004db       0xc8 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_loc     0x00000000000005a3       0xb8 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_loc     0x000000000000065b     0x16d5 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_loc     0x0000000000001d30     0x1ed4 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_loc     0x0000000000003c04      0xb8a build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_loc     0x000000000000478e       0x4c build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_loc     0x00000000000047da      0x121 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_loc     0x00000000000048fb      0x23a build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_loc     0x0000000000004b35       0x2a build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_loc     0x0000000000004b5f       0x9e build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_loc     0x0000000000000000      0x121 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_loc     0x0000000000000121      0x23a build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_loc     0x000000000000035b       0x2a build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_loc     0x0000000000000385       0x9e build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_loc     0x0000000000000423       0x7e build/default/debug/mcc_generated_files/adc/src/adc0.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1306,23 +1640,17 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000      0x7f0
+.debug_ranges   0x0000000000000000      0x3e8
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000       0x40 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
- .debug_ranges  0x0000000000000040       0x30 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
- .debug_ranges  0x0000000000000070       0x30 build/default/debug/mcc_generated_files/freertos/kernel/list.o
- .debug_ranges  0x00000000000000a0      0x128 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
- .debug_ranges  0x00000000000001c8      0x1e0 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
- .debug_ranges  0x00000000000003a8       0xf8 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
- .debug_ranges  0x00000000000004a0       0x28 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
- .debug_ranges  0x00000000000004c8      0x120 build/default/debug/mcc_generated_files/uart/src/usart0.o
- .debug_ranges  0x00000000000005e8       0x10 build/default/debug/mcc_generated_files/system/src/system.o
- .debug_ranges  0x00000000000005f8       0x60 build/default/debug/mcc_generated_files/system/src/pins.o
- .debug_ranges  0x0000000000000658       0x20 build/default/debug/mcc_generated_files/system/src/clock.o
- .debug_ranges  0x0000000000000678       0x10 build/default/debug/mcc_generated_files/system/src/interrupt.o
- .debug_ranges  0x0000000000000688       0x88 build/default/debug/mcc_generated_files/timer/src/tcb0.o
- .debug_ranges  0x0000000000000710       0xd0 build/default/debug/mcc_generated_files/uart/src/usart1.o
- .debug_ranges  0x00000000000007e0       0x10 build/default/debug/main.o
+ .debug_ranges  0x0000000000000000      0x120 build/default/debug/mcc_generated_files/uart/src/usart0.o
+ .debug_ranges  0x0000000000000120       0x10 build/default/debug/mcc_generated_files/system/src/system.o
+ .debug_ranges  0x0000000000000130       0x70 build/default/debug/mcc_generated_files/system/src/pins.o
+ .debug_ranges  0x00000000000001a0       0x20 build/default/debug/mcc_generated_files/system/src/clock.o
+ .debug_ranges  0x00000000000001c0       0x10 build/default/debug/mcc_generated_files/system/src/interrupt.o
+ .debug_ranges  0x00000000000001d0       0x88 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+ .debug_ranges  0x0000000000000258       0xd0 build/default/debug/mcc_generated_files/uart/src/usart1.o
+ .debug_ranges  0x0000000000000328       0x10 build/default/debug/main.o
+ .debug_ranges  0x0000000000000338       0xb0 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
 .debug_macro
  *(.debug_macro)
@@ -1333,900 +1661,532 @@ LOAD data_init
 .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c
  .note.gnu.avr.deviceinfo
-                0x0000000000000000       0x3c C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
-
-.bss.xNumberOfSuccessfulFrees
-                0x0000000000806d7b        0x2
- .bss.xNumberOfSuccessfulFrees
-                0x0000000000806d7b        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.xNumberOfSuccessfulAllocations
-                0x0000000000806d7d        0x2
- .bss.xNumberOfSuccessfulAllocations
-                0x0000000000806d7d        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.xMinimumEverFreeBytesRemaining
-                0x0000000000806d7f        0x2
- .bss.xMinimumEverFreeBytesRemaining
-                0x0000000000806d7f        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.xFreeBytesRemaining
-                0x0000000000806d81        0x2
- .bss.xFreeBytesRemaining
-                0x0000000000806d81        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.pxEnd      0x0000000000806d83        0x2
- .bss.pxEnd     0x0000000000806d83        0x2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.xStart     0x0000000000806d77        0x4
- .bss.xStart    0x0000000000806d77        0x4 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.ucHeap     0x0000000000806002      0xc00
- .bss.ucHeap    0x0000000000806002      0xc00 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-
-.bss.xQueueRegistry
-                0x0000000000806d62        0x8
- .bss.xQueueRegistry
-                0x0000000000806d62        0x8 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x0000000000806d62                xQueueRegistry
-
-.bss.uxSchedulerSuspended
-                0x0000000000806dbd        0x1
- .bss.uxSchedulerSuspended
-                0x0000000000806dbd        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xIdleTaskHandles
-                0x0000000000806d85        0x2
- .bss.xIdleTaskHandles
-                0x0000000000806d85        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xNextTaskUnblockTime
-                0x0000000000806d87        0x2
- .bss.xNextTaskUnblockTime
-                0x0000000000806d87        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.uxTaskNumber
-                0x0000000000806dbe        0x1
- .bss.uxTaskNumber
-                0x0000000000806dbe        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xNumOfOverflows
-                0x0000000000806dbf        0x1
- .bss.xNumOfOverflows
-                0x0000000000806dbf        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xYieldPendings
-                0x0000000000806dc0        0x1
- .bss.xYieldPendings
-                0x0000000000806dc0        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xPendedTicks
-                0x0000000000806d89        0x2
- .bss.xPendedTicks
-                0x0000000000806d89        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xSchedulerRunning
-                0x0000000000806dc1        0x1
- .bss.xSchedulerRunning
-                0x0000000000806dc1        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.uxTopReadyPriority
-                0x0000000000806dc2        0x1
- .bss.uxTopReadyPriority
-                0x0000000000806dc2        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xTickCount
-                0x0000000000806d8b        0x2
- .bss.xTickCount
-                0x0000000000806d8b        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.uxCurrentNumberOfTasks
-                0x0000000000806dc3        0x1
- .bss.uxCurrentNumberOfTasks
-                0x0000000000806dc3        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xSuspendedTaskList
-                0x0000000000806d2c        0x9
- .bss.xSuspendedTaskList
-                0x0000000000806d2c        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xPendingReadyList
-                0x0000000000806d35        0x9
- .bss.xPendingReadyList
-                0x0000000000806d35        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.pxOverflowDelayedTaskList
-                0x0000000000806d8d        0x2
- .bss.pxOverflowDelayedTaskList
-                0x0000000000806d8d        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.pxDelayedTaskList
-                0x0000000000806d8f        0x2
- .bss.pxDelayedTaskList
-                0x0000000000806d8f        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xDelayedTaskList2
-                0x0000000000806d3e        0x9
- .bss.xDelayedTaskList2
-                0x0000000000806d3e        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.xDelayedTaskList1
-                0x0000000000806d47        0x9
- .bss.xDelayedTaskList1
-                0x0000000000806d47        0x9 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.pxReadyTasksLists
-                0x0000000000806cc2       0x24
- .bss.pxReadyTasksLists
-                0x0000000000806cc2       0x24 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.bss.pxCurrentTCB
-                0x0000000000806d91        0x2
- .bss.pxCurrentTCB
-                0x0000000000806d91        0x2 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000806d91                pxCurrentTCB
-
-.bss.xLastTime.4641
-                0x0000000000806d93        0x2
- .bss.xLastTime.4641
-                0x0000000000806d93        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.xTimerTaskHandle
-                0x0000000000806d95        0x2
- .bss.xTimerTaskHandle
-                0x0000000000806d95        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.xTimerQueue
-                0x0000000000806d97        0x2
- .bss.xTimerQueue
-                0x0000000000806d97        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.pxOverflowTimerList
-                0x0000000000806d99        0x2
- .bss.pxOverflowTimerList
-                0x0000000000806d99        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.pxCurrentTimerList
-                0x0000000000806d9b        0x2
- .bss.pxCurrentTimerList
-                0x0000000000806d9b        0x2 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.xActiveTimerList2
-                0x0000000000806d50        0x9
- .bss.xActiveTimerList2
-                0x0000000000806d50        0x9 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.xActiveTimerList1
-                0x0000000000806d59        0x9
- .bss.xActiveTimerList1
-                0x0000000000806d59        0x9 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.bss.xQueue     0x0000000000806d9d        0x2
- .bss.xQueue    0x0000000000806d9d        0x2 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+                0x0000000000000000       0x3c C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
 
 .bss.USART0_RxCompleteInterruptHandler
-                0x0000000000806d9f        0x2
+                0x0000000000806115        0x2
  .bss.USART0_RxCompleteInterruptHandler
-                0x0000000000806d9f        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000806115        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.USART0_TxCompleteInterruptHandler
-                0x0000000000806da1        0x2
+                0x0000000000806117        0x2
  .bss.USART0_TxCompleteInterruptHandler
-                0x0000000000806da1        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000806117        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.USART0_ParityErrorHandler
-                0x0000000000806da3        0x2
+                0x0000000000806119        0x2
  .bss.USART0_ParityErrorHandler
-                0x0000000000806da3        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000806da3                USART0_ParityErrorHandler
+                0x0000000000806119        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000806119                USART0_ParityErrorHandler
 
 .bss.USART0_OverrunErrorHandler
-                0x0000000000806da5        0x2
+                0x000000000080611b        0x2
  .bss.USART0_OverrunErrorHandler
-                0x0000000000806da5        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000806da5                USART0_OverrunErrorHandler
+                0x000000000080611b        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080611b                USART0_OverrunErrorHandler
 
 .bss.USART0_FramingErrorHandler
-                0x0000000000806da7        0x2
+                0x000000000080611d        0x2
  .bss.USART0_FramingErrorHandler
-                0x0000000000806da7        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000806da7                USART0_FramingErrorHandler
+                0x000000000080611d        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080611d                USART0_FramingErrorHandler
 
 .bss.usart0RxLastError
-                0x0000000000806da9        0x2
+                0x000000000080611f        0x2
  .bss.usart0RxLastError
-                0x0000000000806da9        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080611f        0x2 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0RxStatusBuffer
-                0x0000000000806c82       0x40
+                0x0000000000806082       0x40
  .bss.usart0RxStatusBuffer
-                0x0000000000806c82       0x40 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000806082       0x40 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0RxBuffer
-                0x0000000000806ce6       0x20
+                0x00000000008060c2       0x20
  .bss.usart0RxBuffer
-                0x0000000000806ce6       0x20 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x00000000008060c2       0x20 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0RxCount
-                0x0000000000806dc4        0x1
+                0x000000000080613b        0x1
  .bss.usart0RxCount
-                0x0000000000806dc4        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000806dc4                usart0RxCount
+                0x000000000080613b        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080613b                usart0RxCount
 
 .bss.usart0RxTail
-                0x0000000000806dc5        0x1
+                0x000000000080613c        0x1
  .bss.usart0RxTail
-                0x0000000000806dc5        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080613c        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0RxHead
-                0x0000000000806dc6        0x1
+                0x000000000080613d        0x1
  .bss.usart0RxHead
-                0x0000000000806dc6        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080613d        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0TxBuffer
-                0x0000000000806c02       0x80
+                0x0000000000806002       0x80
  .bss.usart0TxBuffer
-                0x0000000000806c02       0x80 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000806002       0x80 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.usart0TxBufferRemaining
-                0x0000000000806dc7        0x1
+                0x000000000080613e        0x1
  .bss.usart0TxBufferRemaining
-                0x0000000000806dc7        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000806dc7                usart0TxBufferRemaining
+                0x000000000080613e        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080613e                usart0TxBufferRemaining
 
 .bss.usart0TxTail
-                0x0000000000806dc8        0x1
+                0x000000000080613f        0x1
  .bss.usart0TxTail
-                0x0000000000806dc8        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x000000000080613f        0x1 build/default/debug/mcc_generated_files/uart/src/usart0.o
 
 .bss.IO_PF2_InterruptHandler
-                0x0000000000806dab        0x2
+                0x0000000000806121        0x2
  .bss.IO_PF2_InterruptHandler
-                0x0000000000806dab        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000806121        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+
+.bss.IO_PD0_InterruptHandler
+                0x0000000000806123        0x2
+ .bss.IO_PD0_InterruptHandler
+                0x0000000000806123        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
 
 .bss.IO_PD6_InterruptHandler
-                0x0000000000806dad        0x2
+                0x0000000000806125        0x2
  .bss.IO_PD6_InterruptHandler
-                0x0000000000806dad        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000806125        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
 
 .bss.IO_PD7_InterruptHandler
-                0x0000000000806daf        0x2
+                0x0000000000806127        0x2
  .bss.IO_PD7_InterruptHandler
-                0x0000000000806daf        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000806127        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
 
 .bss.USART1_ParityErrorHandler
-                0x0000000000806db1        0x2
+                0x0000000000806129        0x2
  .bss.USART1_ParityErrorHandler
-                0x0000000000806db1        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000806db1                USART1_ParityErrorHandler
+                0x0000000000806129        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x0000000000806129                USART1_ParityErrorHandler
 
 .bss.USART1_OverrunErrorHandler
-                0x0000000000806db3        0x2
+                0x000000000080612b        0x2
  .bss.USART1_OverrunErrorHandler
-                0x0000000000806db3        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000806db3                USART1_OverrunErrorHandler
+                0x000000000080612b        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x000000000080612b                USART1_OverrunErrorHandler
 
 .bss.USART1_FramingErrorHandler
-                0x0000000000806db5        0x2
+                0x000000000080612d        0x2
  .bss.USART1_FramingErrorHandler
-                0x0000000000806db5        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000806db5                USART1_FramingErrorHandler
+                0x000000000080612d        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x000000000080612d                USART1_FramingErrorHandler
 
 .bss.usart1RxLastError
-                0x0000000000806db7        0x2
+                0x000000000080612f        0x2
  .bss.usart1RxLastError
-                0x0000000000806db7        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x000000000080612f        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
 
-.bss.__stdout   0x0000000000806dbb        0x2
- .bss.__stdout  0x0000000000806dbb        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
+.bss.ADC0_ErrorCallback
+                0x0000000000806131        0x2
+ .bss.ADC0_ErrorCallback
+                0x0000000000806131        0x2 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000806131                ADC0_ErrorCallback
 
-.rodata         0x000000000080812a       0x5f load address 0x000000000000012a
- .rodata        0x000000000080812a       0x5f build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+.bss.ADC0_ResultReadyCallback
+                0x0000000000806133        0x2
+ .bss.ADC0_ResultReadyCallback
+                0x0000000000806133        0x2 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000806133                ADC0_ResultReadyCallback
 
-.rodata         0x0000000000808189        0xd load address 0x0000000000000189
- .rodata        0x0000000000808189        0xd build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+.bss.ADC0_SampleReadyCallback
+                0x0000000000806135        0x2
+ .bss.ADC0_SampleReadyCallback
+                0x0000000000806135        0x2 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000806135                ADC0_SampleReadyCallback
 
-.rodata         0x0000000000808196        0x5 load address 0x0000000000000196
- .rodata        0x0000000000808196        0x5 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+.bss.__stdout   0x0000000000806139        0x2
+ .bss.__stdout  0x0000000000806139        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
 
-.rodata.uxTopUsedPriority
-                0x000000000080819b        0x1 load address 0x000000000000019b
- .rodata.uxTopUsedPriority
-                0x000000000080819b        0x1 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
+.rodata         0x000000000080810c       0x11 load address 0x000000000000010c
+ .rodata        0x000000000080810c       0x11 build/default/debug/mcc_generated_files/adc/src/adc0.o
 
 .text.vfpfcnvrt
-                0x000000000000019c      0x3fc
+                0x000000000000011e      0x3fc
  .text.vfpfcnvrt
-                0x000000000000019c      0x3fc c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                0x000000000000019c                vfpfcnvrt
+                0x000000000000011e      0x3fc c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x000000000000011e                vfpfcnvrt
 
-.text.xTaskCreate
-                0x0000000000000598      0x262
- .text.xTaskCreate
-                0x0000000000000598      0x262 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000000598                xTaskCreate
+.text.__fmt_x   0x000000000000051a      0x1dc
+ .text.__fmt_x  0x000000000000051a      0x1dc c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_x.o)
+                0x000000000000051a                __fmt_x_needed
+                0x000000000000051a                __fmt_x
 
-.text.xTaskIncrementTick
-                0x00000000000007fa      0x232
- .text.xTaskIncrementTick
-                0x00000000000007fa      0x232 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000007fa                xTaskIncrementTick
-
-.text.prvTimerTask
-                0x0000000000000a2c      0x1d0
- .text.prvTimerTask
-                0x0000000000000a2c      0x1d0 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.text.xTaskResumeAll
-                0x0000000000000bfc      0x1c4
- .text.xTaskResumeAll
-                0x0000000000000bfc      0x1c4 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000000bfc                xTaskResumeAll
-
-.text.xTaskRemoveFromEventList
-                0x0000000000000dc0      0x17c
- .text.xTaskRemoveFromEventList
-                0x0000000000000dc0      0x17c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000000dc0                xTaskRemoveFromEventList
-
-.text.pvPortMalloc
-                0x0000000000000f3c      0x16c
- .text.pvPortMalloc
-                0x0000000000000f3c      0x16c build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-                0x0000000000000f3c                pvPortMalloc
-
-.text.xQueueGenericSend
-                0x00000000000010a8      0x138
- .text.xQueueGenericSend
-                0x00000000000010a8      0x138 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x00000000000010a8                xQueueGenericSend
-
-.text.xQueueReceive
-                0x00000000000011e0      0x128
- .text.xQueueReceive
-                0x00000000000011e0      0x128 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x00000000000011e0                xQueueReceive
-
-.text.prvAddCurrentTaskToDelayedList
-                0x0000000000001308      0x116
- .text.prvAddCurrentTaskToDelayedList
-                0x0000000000001308      0x116 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.text.vPortFree
-                0x000000000000141e       0xf2
- .text.vPortFree
-                0x000000000000141e       0xf2 build/default/debug/mcc_generated_files/freertos/kernel/MemMang/heap_4.o
-                0x000000000000141e                vPortFree
+.text.__fmt_d   0x00000000000006f6       0xe4
+ .text.__fmt_d  0x00000000000006f6       0xe4 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_d.o)
+                0x00000000000006f6                __fmt_d
+                0x00000000000006f6                __fmt_d_needed
 
 .text.PIN_MANAGER_Initialize
-                0x0000000000001510       0xd6
+                0x00000000000007da       0xe2
  .text.PIN_MANAGER_Initialize
-                0x0000000000001510       0xd6 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x0000000000001510                PIN_MANAGER_Initialize
+                0x00000000000007da       0xe2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x00000000000007da                PIN_MANAGER_Initialize
 
-.text.xQueueGenericReset
-                0x00000000000015e6       0xc6
- .text.xQueueGenericReset
-                0x00000000000015e6       0xc6 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x00000000000015e6                xQueueGenericReset
+.text.__pop_int
+                0x00000000000008bc       0xd0
+ .text.__pop_int
+                0x00000000000008bc       0xd0 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__pop_int.o)
+                0x00000000000008bc                __pop_int_needed
+                0x00000000000008bc                __pop_int
 
-.text.xTaskPriorityDisinherit
-                0x00000000000016ac       0xc6
- .text.xTaskPriorityDisinherit
-                0x00000000000016ac       0xc6 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000016ac                xTaskPriorityDisinherit
+.text.__cvt_u   0x000000000000098c       0xca
+ .text.__cvt_u  0x000000000000098c       0xca c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+                0x000000000000098c                __cvt_u
 
 .text.USART0_ReceiveISR
-                0x0000000000001772       0xc4
+                0x0000000000000a56       0xc4
  .text.USART0_ReceiveISR
-                0x0000000000001772       0xc4 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000001772                USART0_ReceiveISR
+                0x0000000000000a56       0xc4 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000000a56                USART0_ReceiveISR
 
-.text.prvCopyDataToQueue
-                0x0000000000001836       0xbe
- .text.prvCopyDataToQueue
-                0x0000000000001836       0xbe build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+.text.__fmt_o   0x0000000000000b1a       0xb2
+ .text.__fmt_o  0x0000000000000b1a       0xb2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_o.o)
+                0x0000000000000b1a                __fmt_o
+                0x0000000000000b1a                __fmt_o_needed
 
-.text.vTaskStartScheduler
-                0x00000000000018f4       0x9c
- .text.vTaskStartScheduler
-                0x00000000000018f4       0x9c build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000018f4                vTaskStartScheduler
-
-.text.prvUnlockQueue
-                0x0000000000001990       0x9a
- .text.prvUnlockQueue
-                0x0000000000001990       0x9a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-
-.text.fputc     0x0000000000001a2a       0x98
- .text.fputc    0x0000000000001a2a       0x98 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
-                0x0000000000001a2a                fputc
-                0x0000000000001a2a                putc
-
-.text.vTaskPlaceOnEventListRestricted
-                0x0000000000001ac2       0x92
- .text.vTaskPlaceOnEventListRestricted
-                0x0000000000001ac2       0x92 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000001ac2                vTaskPlaceOnEventListRestricted
+.text.fputc     0x0000000000000bcc       0x98
+ .text.fputc    0x0000000000000bcc       0x98 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(fputc.o)
+                0x0000000000000bcc                fputc
+                0x0000000000000bcc                putc
 
 .text.CLOCK_Initialize
-                0x0000000000001b54       0x90
+                0x0000000000000c64       0x90
  .text.CLOCK_Initialize
-                0x0000000000001b54       0x90 build/default/debug/mcc_generated_files/system/src/clock.o
-                0x0000000000001b54                CLOCK_Initialize
+                0x0000000000000c64       0x90 build/default/debug/mcc_generated_files/system/src/clock.o
+                0x0000000000000c64                CLOCK_Initialize
 
-.text.xTaskDelayUntil
-                0x0000000000001be4       0x8e
- .text.xTaskDelayUntil
-                0x0000000000001be4       0x8e build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000001be4                xTaskDelayUntil
-
-.text.vQueueAddToRegistry
-                0x0000000000001c72       0x8a
- .text.vQueueAddToRegistry
-                0x0000000000001c72       0x8a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x0000000000001c72                vQueueAddToRegistry
-
-.text.xQueueGenericCreate
-                0x0000000000001cfc       0x84
- .text.xQueueGenericCreate
-                0x0000000000001cfc       0x84 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x0000000000001cfc                xQueueGenericCreate
-
-.text.prvSampleTimeNow
-                0x0000000000001d80       0x84
- .text.prvSampleTimeNow
-                0x0000000000001d80       0x84 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+.text.__fmt_u   0x0000000000000cf4       0x8e
+ .text.__fmt_u  0x0000000000000cf4       0x8e c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_u.o)
+                0x0000000000000cf4                __fmt_u_needed
+                0x0000000000000cf4                __fmt_u
 
 .text.__printf_core
-                0x0000000000001e04       0x78
+                0x0000000000000d82       0x78
  .text.__printf_core
-                0x0000000000001e04       0x78 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                0x0000000000001e04                __printf_core
-
-.text.FreeRTOS_AppStart
-                0x0000000000001e7c       0x74
- .text.FreeRTOS_AppStart
-                0x0000000000001e7c       0x74 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
-                0x0000000000001e7c                FreeRTOS_AppStart
-
-.text.xTaskCheckForTimeOut
-                0x0000000000001ef0       0x72
- .text.xTaskCheckForTimeOut
-                0x0000000000001ef0       0x72 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x0000000000001ef0                xTaskCheckForTimeOut
-
-.text.__pad     0x0000000000001f62       0x72
- .text.__pad    0x0000000000001f62       0x72 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                0x0000000000001f62                __pad
+                0x0000000000000d82       0x78 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x0000000000000d82                __printf_core
 
 .text.__vector_22
-                0x0000000000001fd4       0x64
+                0x0000000000000dfa       0x72
  .text.__vector_22
-                0x0000000000001fd4       0x64 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x0000000000001fd4                __vector_22
+                0x0000000000000dfa       0x72 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000000dfa                __vector_22
 
-.text.vListInsert
-                0x0000000000002038       0x62
- .text.vListInsert
-                0x0000000000002038       0x62 build/default/debug/mcc_generated_files/freertos/kernel/list.o
-                0x0000000000002038                vListInsert
+.text.__pad     0x0000000000000e6c       0x72
+ .text.__pad    0x0000000000000e6c       0x72 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x0000000000000e6c                __pad
 
-.text.prvQueueReceiveTask
-                0x000000000000209a       0x60
- .text.prvQueueReceiveTask
-                0x000000000000209a       0x60 build/default/debug/mcc_generated_files/freertos/freertos_interface.o
-
-.text.prvInsertTimerInActiveList
-                0x00000000000020fa       0x5e
- .text.prvInsertTimerInActiveList
-                0x00000000000020fa       0x5e build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.text.prvCheckForValidListAndQueue
-                0x0000000000002158       0x5e
- .text.prvCheckForValidListAndQueue
-                0x0000000000002158       0x5e build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-
-.text.prvQueueSendTask
-                0x00000000000021b6       0x5c
- .text.prvQueueSendTask
-                0x00000000000021b6       0x5c build/default/debug/mcc_generated_files/freertos/freertos_interface.o
+.text.__vector_31
+                0x0000000000000ede       0x62
+ .text.__vector_31
+                0x0000000000000ede       0x62 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000000ede                __vector_31
 
 .text.USART1_Initialize
-                0x0000000000002212       0x5c
+                0x0000000000000f40       0x5c
  .text.USART1_Initialize
-                0x0000000000002212       0x5c build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000002212                USART1_Initialize
+                0x0000000000000f40       0x5c build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x0000000000000f40                USART1_Initialize
 
 .text.read_prec_or_width
-                0x000000000000226e       0x5c
+                0x0000000000000f9c       0x5c
  .text.read_prec_or_width
-                0x000000000000226e       0x5c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x0000000000000f9c       0x5c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
 
-.text.prvProcessExpiredTimer
-                0x00000000000022ca       0x56
- .text.prvProcessExpiredTimer
-                0x00000000000022ca       0x56 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+.text.__vector_33
+                0x0000000000000ff8       0x58
+ .text.__vector_33
+                0x0000000000000ff8       0x58 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000000ff8                __vector_33
+
+.text.__vector_32
+                0x0000000000001050       0x58
+ .text.__vector_32
+                0x0000000000001050       0x58 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000001050                __vector_32
 
 .text.__vector_24
-                0x0000000000002320       0x56
+                0x00000000000010a8       0x56
  .text.__vector_24
-                0x0000000000002320       0x56 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x0000000000002320                __vector_24
+                0x00000000000010a8       0x56 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x00000000000010a8                __vector_24
 
-.text.__fmt_s   0x0000000000002376       0x54
- .text.__fmt_s  0x0000000000002376       0x54 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
-                0x0000000000002376                __fmt_s
-                0x0000000000002376                __fmt_0_needed
-                0x0000000000002376                __fmt_s_needed
+.text.__fmt_s   0x00000000000010fe       0x54
+ .text.__fmt_s  0x00000000000010fe       0x54 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
+                0x00000000000010fe                __fmt_s
+                0x00000000000010fe                __fmt_0_needed
+                0x00000000000010fe                __fmt_s_needed
 
-.text.uxListRemove
-                0x00000000000023ca       0x4e
- .text.uxListRemove
-                0x00000000000023ca       0x4e build/default/debug/mcc_generated_files/freertos/kernel/list.o
-                0x00000000000023ca                uxListRemove
+.text.ADC0_GetConversion
+                0x0000000000001152       0x52
+ .text.ADC0_GetConversion
+                0x0000000000001152       0x52 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x0000000000001152                ADC0_GetConversion
 
 .text.USART0_TransmitISR
-                0x0000000000002418       0x4a
+                0x00000000000011a4       0x4a
  .text.USART0_TransmitISR
-                0x0000000000002418       0x4a build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x0000000000002418                USART0_TransmitISR
-
-.text.prvReloadTimer
-                0x0000000000002462       0x48
- .text.prvReloadTimer
-                0x0000000000002462       0x48 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
+                0x00000000000011a4       0x4a build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x00000000000011a4                USART0_TransmitISR
 
 .text.__vector_19
-                0x00000000000024aa       0x48
+                0x00000000000011ee       0x48
  .text.__vector_19
-                0x00000000000024aa       0x48 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x00000000000024aa                __vector_19
+                0x00000000000011ee       0x48 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x00000000000011ee                __vector_19
 
 .text.__vector_20
-                0x00000000000024f2       0x48
+                0x0000000000001236       0x48
  .text.__vector_20
-                0x00000000000024f2       0x48 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x00000000000024f2                __vector_20
-
-.text.xTimerCreateTimerTask
-                0x000000000000253a       0x44
- .text.xTimerCreateTimerTask
-                0x000000000000253a       0x44 build/default/debug/mcc_generated_files/freertos/kernel/timers.o
-                0x000000000000253a                xTimerCreateTimerTask
-
-.text.__fmt_state
-                0x000000000000257e       0x40
- .text.__fmt_state
-                0x000000000000257e       0x40 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                0x000000000000257e                __fmt_state
-
-.text.vQueueWaitForMessageRestricted
-                0x00000000000025be       0x3a
- .text.vQueueWaitForMessageRestricted
-                0x00000000000025be       0x3a build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-                0x00000000000025be                vQueueWaitForMessageRestricted
-
-.text.__out     0x00000000000025f8       0x3a
- .text.__out    0x00000000000025f8       0x3a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
-                0x00000000000025f8                __out
-
-.text.prvResetNextTaskUnblockTime
-                0x0000000000002632       0x38
- .text.prvResetNextTaskUnblockTime
-                0x0000000000002632       0x38 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.text.prvCopyDataFromQueue
-                0x000000000000266a       0x34
- .text.prvCopyDataFromQueue
-                0x000000000000266a       0x34 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
-
-.text.libgcc.prologue
-                0x000000000000269e       0x32
- .text.libgcc.prologue
-                0x000000000000269e       0x32 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_prologue.o)
-                0x000000000000269e                __prologue_saves__
-
-.text.__wrap_printf
-                0x00000000000026d0       0x30
- .text.__wrap_printf
-                0x00000000000026d0       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_s.o)
-                0x00000000000026d0                _printf_s
-
-.text.__vfprintf
-                0x0000000000002700       0x30
- .text.__vfprintf
-                0x0000000000002700       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
-                0x0000000000002700                __vfprintf
-
-.text.libgcc.prologue
-                0x0000000000002730       0x30
- .text.libgcc.prologue
-                0x0000000000002730       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_epilogue.o)
-                0x0000000000002730                __epilogue_restores__
+                0x0000000000001236       0x48 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000001236                __vector_20
 
 .text.libgcc.div
-                0x0000000000002760       0x28
+                0x000000000000127e       0x44
  .text.libgcc.div
-                0x0000000000002760       0x28 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodhi4.o)
-                0x0000000000002760                __udivmodhi4
+                0x000000000000127e       0x44 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_udivmodsi4.o)
+                0x000000000000127e                __udivmodsi4
 
-.text.pxPortInitialiseStack
-                0x0000000000002788       0x26
- .text.pxPortInitialiseStack
-                0x0000000000002788       0x26 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
-                0x0000000000002788                pxPortInitialiseStack
+.text.__fmt_state
+                0x00000000000012c2       0x40
+ .text.__fmt_state
+                0x00000000000012c2       0x40 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x00000000000012c2                __fmt_state
 
-.text.vTaskPlaceOnEventList
-                0x00000000000027ae       0x24
- .text.vTaskPlaceOnEventList
-                0x00000000000027ae       0x24 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000027ae                vTaskPlaceOnEventList
+.text.__out     0x0000000000001302       0x3a
+ .text.__out    0x0000000000001302       0x3a c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x0000000000001302                __out
+
+.text.libgcc.prologue
+                0x000000000000133c       0x32
+ .text.libgcc.prologue
+                0x000000000000133c       0x32 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_prologue.o)
+                0x000000000000133c                __prologue_saves__
+
+.text.__wrap_printf
+                0x000000000000136e       0x30
+ .text.__wrap_printf
+                0x000000000000136e       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__sio_printf_doux.o)
+                0x000000000000136e                _printf_cdopuxX
+
+.text.__vfprintf
+                0x000000000000139e       0x30
+ .text.__vfprintf
+                0x000000000000139e       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__int_vfprintf.o)
+                0x000000000000139e                __vfprintf
+
+.text.libgcc.prologue
+                0x00000000000013ce       0x30
+ .text.libgcc.prologue
+                0x00000000000013ce       0x30 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_epilogue.o)
+                0x00000000000013ce                __epilogue_restores__
+
+.text.ADC0_Initialize
+                0x00000000000013fe       0x28
+ .text.ADC0_Initialize
+                0x00000000000013fe       0x28 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x00000000000013fe                ADC0_Initialize
 
 .text.TCB0_Initialize
-                0x00000000000027d2       0x22
+                0x0000000000001426       0x22
  .text.TCB0_Initialize
-                0x00000000000027d2       0x22 build/default/debug/mcc_generated_files/timer/src/tcb0.o
-                0x00000000000027d2                TCB0_Initialize
+                0x0000000000001426       0x22 build/default/debug/mcc_generated_files/timer/src/tcb0.o
+                0x0000000000001426                TCB0_Initialize
 
 .text.__vector_21
-                0x00000000000027f4       0x20
+                0x0000000000001448       0x20
  .text.__vector_21
-                0x00000000000027f4       0x20 build/default/debug/mcc_generated_files/uart/src/usart0.o
-                0x00000000000027f4                __vector_21
-
-.text.vListInitialise
-                0x0000000000002814       0x1c
- .text.vListInitialise
-                0x0000000000002814       0x1c build/default/debug/mcc_generated_files/freertos/kernel/list.o
-                0x0000000000002814                vListInitialise
-
-.text.strlen    0x0000000000002830       0x1c
- .text.strlen   0x0000000000002830       0x1c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
-                0x0000000000002830                strlen
-
-.text.FreeRTOS_Initialize
-                0x000000000000284c       0x1a
- .text.FreeRTOS_Initialize
-                0x000000000000284c       0x1a build/default/debug/mcc_generated_files/freertos/freertos_interface.o
-                0x000000000000284c                FreeRTOS_Initialize
+                0x0000000000001448       0x20 build/default/debug/mcc_generated_files/uart/src/usart0.o
+                0x0000000000001448                __vector_21
 
 .text.SYSTEM_Initialize
-                0x0000000000002866       0x1a
+                0x0000000000001468       0x20
  .text.SYSTEM_Initialize
-                0x0000000000002866       0x1a build/default/debug/mcc_generated_files/system/src/system.o
-                0x0000000000002866                SYSTEM_Initialize
+                0x0000000000001468       0x20 build/default/debug/mcc_generated_files/system/src/system.o
+                0x0000000000001468                SYSTEM_Initialize
+
+.text.strlen    0x0000000000001488       0x1c
+ .text.strlen   0x0000000000001488       0x1c c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(strlen.o)
+                0x0000000000001488                strlen
 
 .text.CPUINT_Initialize
-                0x0000000000002880       0x1a
+                0x00000000000014a4       0x1a
  .text.CPUINT_Initialize
-                0x0000000000002880       0x1a build/default/debug/mcc_generated_files/system/src/interrupt.o
-                0x0000000000002880                CPUINT_Initialize
+                0x00000000000014a4       0x1a build/default/debug/mcc_generated_files/system/src/interrupt.o
+                0x00000000000014a4                CPUINT_Initialize
 
 .text.USART1_printCHAR
-                0x000000000000289a       0x18
+                0x00000000000014be       0x18
  .text.USART1_printCHAR
-                0x000000000000289a       0x18 build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x000000000000289a                USART1_printCHAR
+                0x00000000000014be       0x18 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x00000000000014be                USART1_printCHAR
 
-.text.prvIsQueueEmpty
-                0x00000000000028b2       0x16
- .text.prvIsQueueEmpty
-                0x00000000000028b2       0x16 build/default/debug/mcc_generated_files/freertos/kernel/queue.o
+.text.exit      0x00000000000014d6       0x16
+ .text.exit     0x00000000000014d6       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+                0x00000000000014d6                exit
 
-.text.vTaskInternalSetTimeOutState
-                0x00000000000028c8       0x16
- .text.vTaskInternalSetTimeOutState
-                0x00000000000028c8       0x16 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000028c8                vTaskInternalSetTimeOutState
+.text.ADC0_StartConversion
+                0x00000000000014ec       0x12
+ .text.ADC0_StartConversion
+                0x00000000000014ec       0x12 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x00000000000014ec                ADC0_StartConversion
 
-.text.exit      0x00000000000028de       0x16
- .text.exit     0x00000000000028de       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
-                0x00000000000028de                exit
+.text.toupper   0x00000000000014fe       0x12
+ .text.toupper  0x00000000000014fe       0x12 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(toupper.o)
+                0x00000000000014fe                toupper
 
-.text.memcpy    0x00000000000028f4       0x16
- .text.memcpy   0x00000000000028f4       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memcpy.o)
-                0x00000000000028f4                memcpy
-
-.text.xTaskGetTickCount
-                0x000000000000290a       0x14
- .text.xTaskGetTickCount
-                0x000000000000290a       0x14 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x000000000000290a                xTaskGetTickCount
-
-.text.memset    0x000000000000291e       0x12
- .text.memset   0x000000000000291e       0x12 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(memset.o)
-                0x000000000000291e                memset
-
-.text.prvIdleTask
-                0x0000000000002930       0x10
- .text.prvIdleTask
-                0x0000000000002930       0x10 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-
-.text.tolower   0x0000000000002940       0x10
- .text.tolower  0x0000000000002940       0x10 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
-                0x0000000000002940                tolower
-
-.text.xPortStartScheduler
-                0x0000000000002950        0xe
- .text.xPortStartScheduler
-                0x0000000000002950        0xe build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
-                0x0000000000002950                xPortStartScheduler
-
-.text.vTaskSuspendAll
-                0x000000000000295e        0xc
- .text.vTaskSuspendAll
-                0x000000000000295e        0xc build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x000000000000295e                vTaskSuspendAll
-
-.text.TCB0_Start
-                0x000000000000296a        0xc
- .text.TCB0_Start
-                0x000000000000296a        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
-                0x000000000000296a                TCB0_Start
-
-.text.TCB0_EnableCaptInterrupt
-                0x0000000000002976        0xc
- .text.TCB0_EnableCaptInterrupt
-                0x0000000000002976        0xc build/default/debug/mcc_generated_files/timer/src/tcb0.o
-                0x0000000000002976                TCB0_EnableCaptInterrupt
+.text.tolower   0x0000000000001510       0x10
+ .text.tolower  0x0000000000001510       0x10 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(tolower.o)
+                0x0000000000001510                tolower
 
 .text.USART1_IsTxReady
-                0x0000000000002982        0xc
+                0x0000000000001520        0xc
  .text.USART1_IsTxReady
-                0x0000000000002982        0xc build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000002982                USART1_IsTxReady
-
-.text.libgcc    0x000000000000298e        0xc
- .text.libgcc   0x000000000000298e        0xc c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/avrxmega2/memx-const/mapped\libgcc.a(_tablejump2.o)
-                0x000000000000298e                __tablejump2__
+                0x0000000000001520        0xc build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x0000000000001520                USART1_IsTxReady
 
 .text.__vector_9
-                0x000000000000299a        0xa
+                0x000000000000152c        0xa
  .text.__vector_9
-                0x000000000000299a        0xa build/default/debug/mcc_generated_files/system/src/pins.o
-                0x000000000000299a                __vector_9
+                0x000000000000152c        0xa build/default/debug/mcc_generated_files/system/src/pins.o
+                0x000000000000152c                __vector_9
 
 .text.__vector_23
-                0x00000000000029a4        0xa
+                0x0000000000001536        0xa
  .text.__vector_23
-                0x00000000000029a4        0xa build/default/debug/mcc_generated_files/system/src/pins.o
-                0x00000000000029a4                __vector_23
+                0x0000000000001536        0xa build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000001536                __vector_23
 
 .text.protected_write_io
-                0x00000000000029ae        0xa
+                0x0000000000001540        0xa
  .text.protected_write_io
-                0x00000000000029ae        0xa build/default/debug/mcc_generated_files/system/src/protected_io.o
-                0x00000000000029ae                protected_write_io
+                0x0000000000001540        0xa build/default/debug/mcc_generated_files/system/src/protected_io.o
+                0x0000000000001540                protected_write_io
 
-.text.vListInitialiseItem
-                0x00000000000029b8        0x8
- .text.vListInitialiseItem
-                0x00000000000029b8        0x8 build/default/debug/mcc_generated_files/freertos/kernel/list.o
-                0x00000000000029b8                vListInitialiseItem
+.text.ADC0_IsConversionDone
+                0x000000000000154a        0x8
+ .text.ADC0_IsConversionDone
+                0x000000000000154a        0x8 build/default/debug/mcc_generated_files/adc/src/adc0.o
+                0x000000000000154a                ADC0_IsConversionDone
 
-.text.vTaskMissedYield
-                0x00000000000029c0        0x8
- .text.vTaskMissedYield
-                0x00000000000029c0        0x8 build/default/debug/mcc_generated_files/freertos/kernel/tasks.o
-                0x00000000000029c0                vTaskMissedYield
+.text.main      0x0000000000001552        0x6
+ .text.main     0x0000000000001552        0x6 build/default/debug/main.o
+                0x0000000000001552                main
 
-.text.main      0x00000000000029c8        0x6
- .text.main     0x00000000000029c8        0x6 build/default/debug/main.o
-                0x00000000000029c8                main
+.text           0x0000000000001558        0x4
+ .text          0x0000000000001558        0x4 C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
+                0x0000000000001558                __vector_28
+                0x0000000000001558                __vector_1
+                0x0000000000001558                __vector_12
+                0x0000000000001558                __bad_interrupt
+                0x0000000000001558                __vector_6
+                0x0000000000001558                __vector_3
+                0x0000000000001558                __vector_30
+                0x0000000000001558                __vector_25
+                0x0000000000001558                __vector_11
+                0x0000000000001558                __vector_13
+                0x0000000000001558                __vector_17
+                0x0000000000001558                __vector_7
+                0x0000000000001558                __vector_27
+                0x0000000000001558                __vector_5
+                0x0000000000001558                __vector_4
+                0x0000000000001558                __vector_2
+                0x0000000000001558                __vector_15
+                0x0000000000001558                __vector_29
+                0x0000000000001558                __vector_8
+                0x0000000000001558                __vector_26
+                0x0000000000001558                __vector_14
+                0x0000000000001558                __vector_10
+                0x0000000000001558                __vector_16
+                0x0000000000001558                __vector_18
 
-.text           0x00000000000029ce        0x4
- .text          0x00000000000029ce        0x4 C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/lib/avrxmega2/memx-const/mapped/crtavr64du32.o
-                0x00000000000029ce                __vector_28
-                0x00000000000029ce                __vector_1
-                0x00000000000029ce                __vector_32
-                0x00000000000029ce                __vector_12
-                0x00000000000029ce                __bad_interrupt
-                0x00000000000029ce                __vector_6
-                0x00000000000029ce                __vector_31
-                0x00000000000029ce                __vector_3
-                0x00000000000029ce                __vector_30
-                0x00000000000029ce                __vector_25
-                0x00000000000029ce                __vector_11
-                0x00000000000029ce                __vector_13
-                0x00000000000029ce                __vector_17
-                0x00000000000029ce                __vector_7
-                0x00000000000029ce                __vector_27
-                0x00000000000029ce                __vector_5
-                0x00000000000029ce                __vector_33
-                0x00000000000029ce                __vector_4
-                0x00000000000029ce                __vector_2
-                0x00000000000029ce                __vector_15
-                0x00000000000029ce                __vector_29
-                0x00000000000029ce                __vector_8
-                0x00000000000029ce                __vector_26
-                0x00000000000029ce                __vector_14
-                0x00000000000029ce                __vector_10
-                0x00000000000029ce                __vector_16
-                0x00000000000029ce                __vector_18
-
-.text._Exit     0x00000000000029d2        0x4
- .text._Exit    0x00000000000029d2        0x4 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
-                0x00000000000029d2                _Exit
-
-.text.vPortYield
-                0x00000000000029d6        0x2
- .text.vPortYield
-                0x00000000000029d6        0x2 build/default/debug/mcc_generated_files/freertos/kernel/portable/port.o
-                0x00000000000029d6                vPortYield
+.text._Exit     0x000000000000155c        0x4
+ .text._Exit    0x000000000000155c        0x4 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(_Exit.o)
+                0x000000000000155c                _Exit
 
 .text.IO_PD7_DefaultInterruptHandler
-                0x00000000000029d8        0x2
+                0x0000000000001560        0x2
  .text.IO_PD7_DefaultInterruptHandler
-                0x00000000000029d8        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x00000000000029d8                IO_PD7_DefaultInterruptHandler
+                0x0000000000001560        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000001560                IO_PD7_DefaultInterruptHandler
 
 .text.IO_PD6_DefaultInterruptHandler
-                0x00000000000029da        0x2
+                0x0000000000001562        0x2
  .text.IO_PD6_DefaultInterruptHandler
-                0x00000000000029da        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x00000000000029da                IO_PD6_DefaultInterruptHandler
+                0x0000000000001562        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000001562                IO_PD6_DefaultInterruptHandler
+
+.text.IO_PD0_DefaultInterruptHandler
+                0x0000000000001564        0x2
+ .text.IO_PD0_DefaultInterruptHandler
+                0x0000000000001564        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000001564                IO_PD0_DefaultInterruptHandler
 
 .text.IO_PF2_DefaultInterruptHandler
-                0x00000000000029dc        0x2
+                0x0000000000001566        0x2
  .text.IO_PF2_DefaultInterruptHandler
-                0x00000000000029dc        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
-                0x00000000000029dc                IO_PF2_DefaultInterruptHandler
+                0x0000000000001566        0x2 build/default/debug/mcc_generated_files/system/src/pins.o
+                0x0000000000001566                IO_PF2_DefaultInterruptHandler
 
 .text.USART1_DefaultFramingErrorCallback
-                0x00000000000029de        0x2
+                0x0000000000001568        0x2
  .text.USART1_DefaultFramingErrorCallback
-                0x00000000000029de        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x0000000000001568        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
 
 .text.USART1_DefaultOverrunErrorCallback
-                0x00000000000029e0        0x2
+                0x000000000000156a        0x2
  .text.USART1_DefaultOverrunErrorCallback
-                0x00000000000029e0        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x000000000000156a        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
 
 .text.USART1_DefaultParityErrorCallback
-                0x00000000000029e2        0x2
+                0x000000000000156c        0x2
  .text.USART1_DefaultParityErrorCallback
-                0x00000000000029e2        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x000000000000156c        0x2 build/default/debug/mcc_generated_files/uart/src/usart1.o
 
 .text.__dummy_fini
-                0x00000000000029e4        0x2
+                0x000000000000156e        0x2
  .text.__dummy_fini
-                0x00000000000029e4        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
-                0x00000000000029e4                _fini
+                0x000000000000156e        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+                0x000000000000156e                _fini
 
 .text.__dummy_funcs_on_exit
-                0x00000000000029e6        0x2
+                0x0000000000001570        0x2
  .text.__dummy_funcs_on_exit
-                0x00000000000029e6        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
-                0x00000000000029e6                __funcs_on_exit
+                0x0000000000001570        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+                0x0000000000001570                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x00000000000029e8        0x2
+                0x0000000000001572        0x2
  .text.__dummy_simulator_exit
-                0x00000000000029e8        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
-                0x00000000000029e8                __simulator_exit
+                0x0000000000001572        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(exit.o)
+                0x0000000000001572                __simulator_exit
 
 .rodata.state_table
-                0x0000000000806d06       0x16 load address 0x00000000000029ea
+                0x00000000008060e2       0x16 load address 0x0000000000001574
  .rodata.state_table
-                0x0000000000806d06       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x00000000008060e2       0x16 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
 
 .data.USART1_stream
-                0x0000000000806d1c       0x10 load address 0x0000000000002a00
+                0x00000000008060f8       0x10 load address 0x000000000000158a
  .data.USART1_stream
-                0x0000000000806d1c       0x10 build/default/debug/mcc_generated_files/uart/src/usart1.o
-                0x0000000000806d1c                USART1_stream
+                0x00000000008060f8       0x10 build/default/debug/mcc_generated_files/uart/src/usart1.o
+                0x00000000008060f8                USART1_stream
 
 .rodata.nuls.2781
-                0x0000000000806d6a        0x7 load address 0x0000000000002a10
+                0x0000000000806108        0x7 load address 0x000000000000159a
  .rodata.nuls.2781
-                0x0000000000806d6a        0x7 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
+                0x0000000000806108        0x7 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__fmt_s.o)
 
 .rodata.nilstr.2962
-                0x0000000000806d71        0x6 load address 0x0000000000002a17
+                0x000000000080610f        0x6 load address 0x00000000000015a1
  .rodata.nilstr.2962
-                0x0000000000806d71        0x6 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
+                0x000000000080610f        0x6 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(__printf_core.o)
 
-.data._stdout   0x0000000000806db9        0x2 load address 0x0000000000002a1d
- .data._stdout  0x0000000000806db9        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
-                0x0000000000806db9                _stdout
+.data._stdout   0x0000000000806137        0x2 load address 0x00000000000015a7
+ .data._stdout  0x0000000000806137        0x2 c:/program files/microchip/xc8/v2.50/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrxmega2/memx-const/mapped\libc.a(stdout.o)
+                0x0000000000806137                _stdout

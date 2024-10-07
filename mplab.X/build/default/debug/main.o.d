@@ -9,7 +9,7 @@ build/default/debug/main.o.d build/default/debug/main.o: main.c \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\stdint.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\alltypes.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\stdint.h \
- C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h \
+ C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\portpins.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\common.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\xmega.h \
@@ -31,6 +31,8 @@ build/default/debug/main.o.d build/default/debug/main.o: main.c \
  mcc_generated_files/system/../system/pins.h \
  mcc_generated_files/system/../system/./port.h \
  mcc_generated_files/system/../system/./utils/compiler.h \
+ mcc_generated_files/system/../adc/adc0.h \
+ mcc_generated_files/system/../adc/../system/utils/compiler.h \
  mcc_generated_files/system/../timer/tcb0.h \
  mcc_generated_files/system/../timer/../system/utils/compiler.h \
  mcc_generated_files/system/../timer/./timer_interface.h \
@@ -63,7 +65,7 @@ c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\alltypes.h:
 
 c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\stdint.h:
 
-C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h:
+C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h:
 
 c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\portpins.h:
 
@@ -106,6 +108,10 @@ mcc_generated_files/system/../system/pins.h:
 mcc_generated_files/system/../system/./port.h:
 
 mcc_generated_files/system/../system/./utils/compiler.h:
+
+mcc_generated_files/system/../adc/adc0.h:
+
+mcc_generated_files/system/../adc/../system/utils/compiler.h:
 
 mcc_generated_files/system/../timer/tcb0.h:
 

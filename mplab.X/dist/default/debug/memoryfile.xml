@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<project>                                  
-  <executable name="dist/default/debug/mplab.X.debug.elf">                 
-    <memory name="program">              
-      <units>bytes</units>                 
-      <length>65536</length>                 
-      <used>10783</used>                     
-      <free>54753</free>                     
-    </memory>                              
-    <memory name="data">                 
-      <units>bytes</units>                 
-      <length>8192</length>                 
-      <used>3529</used>                     
-      <free>4663</free>                     
-    </memory>                              
-  </executable>                            
-</project>                                 
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug/mplab.X.debug.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>65536</length>
+      <used>5544</used>
+      <free>59992</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>320</used>
+      <free>7872</free>
+    </memory>
+  </executable>
+</project>
