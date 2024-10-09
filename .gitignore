@@ -1,0 +1,4 @@
+mplab.X/build/
+.vscode/settings.json
+.generated_files/
+dist/
