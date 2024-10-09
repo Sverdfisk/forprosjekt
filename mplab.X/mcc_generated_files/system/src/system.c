@@ -43,14 +43,4 @@ void SYSTEM_Initialize(void)
     USART1_Initialize();
     CPUINT_Initialize();
     //FreeRTOS_Initialize();
-
-
-    while (1)
-    {
-        adc_result_t result = ADC0_GetConversion(ADC_MUXPOS_AIN0_gc);  // Read ADC from the specified channel
-    }
-
-    return 0;
-
-    //FreeRTOS_Initialize();
 }

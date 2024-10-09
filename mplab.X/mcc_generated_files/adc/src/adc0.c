@@ -158,7 +158,7 @@ adc_result_t ADC0_GetConversion(adc_0_channel_t channel)
     res = ADC0_GetConversionResult();
     ADC0.INTFLAGS = ADC_RESRDY_bm;
 
-    printf("ADC Result: %d\n\r", res);
+    // printf("ADC Result: %d\n\r", res);
 
     return res;
 }

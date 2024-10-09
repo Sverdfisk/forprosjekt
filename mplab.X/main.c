@@ -44,5 +44,6 @@ int main(void)
     printf("Hello MidiGlove\r\n");
     while(1)
     {
+        play_note(ADC_MUXPOS_AIN0_gc);
     }    
 }
