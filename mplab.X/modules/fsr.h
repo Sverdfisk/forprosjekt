@@ -22,10 +22,15 @@ extern "C" {
 }
 #endif
 
-#endif	/* FSR_H */
 
+typedef struct {
+    uint8_t adc_channel;
+    uint32_t initial_velocity;
+    bool note_on;
+} Finger;
 
+void play_note(Finger* finger);
 uint32_t get_initial_velocity(uint8_t number_of_samples, uint8_t adc_channel);
-void play_note(uint8_t adc_channel);
-bool note_on(uint8_t adc_channel);
 uint32_t get_average(uint8_t n, uint8_t adc_channel);
+
+#endif	/* FSR_H */

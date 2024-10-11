@@ -1,19 +1,16 @@
-/*
- * MAIN Generated Driver File
+/**
+ * DELAY Generated Driver API Header File
  * 
- * @file main.c
+ * @file delay.h
  * 
- * @defgroup main MAIN
+ * @defgroup delay DELAY BLOCKING DRIVER
  * 
- * @brief This is the generated driver implementation file for the MAIN driver.
+ * @brief This file contains the API to generate delays in the range of milliseconds and microseconds.
  *
- * @version MAIN Driver Version 1.0.2
- *
- * @version Package Version: 3.1.2
+ * @version DELAY Driver Version 1.1.0
 */
-
 /*
-ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
+© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -32,26 +29,26 @@
     EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
     THIS SOFTWARE.
 */
-#include "mcc_generated_files/system/system.h"
 
-/*
-    Main application
+#ifndef _DELAY_H
+#define _DELAY_H
+
+#include <stdint.h>
+
+/**
+*  @ingroup delay
+*  @brief Delays the execution of the program for a certain number of milliseconds
+*  @param[in] milliseconds - Number of milliseconds to delay
+*  @return None.
 */
+void DELAY_milliseconds(uint16_t milliseconds);
 
-int main(void)
-{
-    SYSTEM_Initialize();
-    printf("Hello MidiGlove2\r\n");
+/**
+*  @ingroup delay
+*  @brief Delays the execution of the program for a certain number of microseconds
+*  @param[in] microseconds - Number of microseconds to delay
+*  @return None.
+*/
+void DELAY_microseconds(uint16_t microseconds);
 
-    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN0_gc, .initial_velocity = 0, .note_on = false };
-    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note_on = false };
-    Finger* pFinger_0 = &finger_0;
-    Finger* pFinger_1 = &finger_1;
-    
-    while(1)
-    {
-        play_note(pFinger_0);
-        DELAY_milliseconds(1);
-        play_note(pFinger_1);
-    }    
-}
+#endif	// _DELAY_H

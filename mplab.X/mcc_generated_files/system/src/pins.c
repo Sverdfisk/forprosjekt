@@ -37,6 +37,7 @@
 static void (*IO_PD7_InterruptHandler)(void);
 static void (*IO_PD6_InterruptHandler)(void);
 static void (*IO_PD0_InterruptHandler)(void);
+static void (*IO_PD1_InterruptHandler)(void);
 static void (*IO_PF2_InterruptHandler)(void);
 
 void PIN_MANAGER_Initialize()
