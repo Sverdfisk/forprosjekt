@@ -16,12 +16,9 @@
 extern "C" {
 #endif
 
-
-
 #ifdef	__cplusplus
 }
 #endif
-
 
 typedef struct {
     uint8_t adc_channel;
