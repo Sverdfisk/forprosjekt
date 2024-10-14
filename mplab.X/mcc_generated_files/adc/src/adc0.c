@@ -11,7 +11,7 @@
 */
 
 /*
-ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
+© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -39,8 +39,8 @@ adc_irq_cb_t ADC0_ErrorCallback = NULL;
 
 int8_t ADC0_Initialize(void)
 {     
-    //PRESC CLK_PER divided by 2; 
-    ADC0.CTRLB = 0x0;
+    //PRESC CLK_PER divided by 10; 
+    ADC0.CTRLB = 0x4;
 
     //FREERUN enabled; LEFTADJ disabled; SAMPNUM No accumulation; 
     ADC0.CTRLF = 0x20;
