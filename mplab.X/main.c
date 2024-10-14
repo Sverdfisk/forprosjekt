@@ -1,4 +1,4 @@
- /*
+/*
  * MAIN Generated Driver File
  * 
  * @file main.c
@@ -41,8 +41,18 @@
 int main(void)
 {
     SYSTEM_Initialize();
-    printf("Hello MidiGlove\r\n");
+    printf("\nHello MidiGlove\r\n");
+
+    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note_on = false };
+    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note_on = false };
+    Finger* pFinger_0 = &finger_0;
+    Finger* pFinger_1 = &finger_1;
+    
     while(1)
     {
+        play_note(pFinger_1); 
+        DELAY_milliseconds(10); 
+        play_note(pFinger_0);
+        DELAY_milliseconds(10); 
     }    
 }

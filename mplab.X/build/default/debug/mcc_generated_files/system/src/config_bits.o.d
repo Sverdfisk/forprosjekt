@@ -9,7 +9,7 @@ build/default/debug/mcc_generated_files/system/src/config_bits.o.d \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\stdint.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\alltypes.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\stdint.h \
- C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h \
+ C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\portpins.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\common.h \
  c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\xmega.h \
@@ -32,7 +32,7 @@ c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\alltypes.h:
 
 c:\program\ files\microchip\xc8\v2.50\avr\avr\include\bits\stdint.h:
 
-C:/Users/janer/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h:
+C:/Users/Mohammad/.mchp_packs/Microchip/AVR-Dx_DFP/2.6.303/xc8/avr/include/avr/ioavr64du32.h:
 
 c:\program\ files\microchip\xc8\v2.50\avr\avr\include\avr\portpins.h:
 

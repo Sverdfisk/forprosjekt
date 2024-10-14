@@ -7,6 +7,9 @@
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
                      projectFiles="true">
+        <logicalFolder name="adc" displayName="adc" projectFiles="true">
+          <itemPath>mcc_generated_files/adc/adc0.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
           <logicalFolder name="kernel" displayName="kernel" projectFiles="true">
             <logicalFolder name="include" displayName="include" projectFiles="true">
@@ -98,6 +101,11 @@
       <logicalFolder name="MCC Generated Files"
                      displayName="MCC Generated Files"
                      projectFiles="true">
+        <logicalFolder name="adc" displayName="adc" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>mcc_generated_files/adc/src/adc0.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
         <logicalFolder name="examples" displayName="examples" projectFiles="true">
           <logicalFolder name="UART_Example"
                          displayName="UART_Example"
