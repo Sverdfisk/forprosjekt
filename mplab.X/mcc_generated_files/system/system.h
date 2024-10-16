@@ -51,6 +51,7 @@ extern "C" {
 #include "../system/clock.h"
 #include "../freertos/freertos_interface.h"
 #include "../../modules/fsr.h"
+#include "../../modules/midi.h"
 
 /**
  * @ingroup systemdriver
