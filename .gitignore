@@ -3,3 +3,4 @@ mplab.X/build/
 mplab.X/dist/
 mplab.X/*.mk
 mplab.X/*.yml
+mplab.X/*.properties
