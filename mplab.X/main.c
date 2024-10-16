@@ -37,14 +37,15 @@
 /*
     Main application
 */
-
 int main(void)
 {
     SYSTEM_Initialize();
+    #ifdef SILENT
     printf("\nHello MidiGlove\r\n");
+    #endif
 
-    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note_on = false };
-    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note_on = false };
+    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note = 60, .note_on = false };
+    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note = 61, .note_on = false };
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
     
