@@ -11,7 +11,7 @@
 */
 
 /*
-© [2024] Microchip Technology Inc. and its subsidiaries.
+Â© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -39,11 +39,11 @@ adc_irq_cb_t ADC0_ErrorCallback = NULL;
 
 int8_t ADC0_Initialize(void)
 {     
-    //PRESC CLK_PER divided by 10; 
-    ADC0.CTRLB = 0x4;
+    //PRESC CLK_PER divided by 2; 
+    ADC0.CTRLB = 0x0;
 
-    //FREERUN enabled; LEFTADJ disabled; SAMPNUM No accumulation; 
-    ADC0.CTRLF = 0x20;
+    //FREERUN enabled; LEFTADJ disabled; SAMPNUM 8 results accumulated; 
+    ADC0.CTRLF = 0x26;
 
     //REFSEL VDD; 
     ADC0.CTRLC = 0x0;
@@ -51,14 +51,14 @@ int8_t ADC0_Initialize(void)
     //WINCM No Window Comparison; WINSRC disabled; 
     ADC0.CTRLD = 0x0;
 
-    //SAMPDUR 0;
+    //SAMPDUR 0; 
     ADC0.CTRLE = 0x0;
 
     //DBGRUN disabled; 
     ADC0.DBGCTRL = 0x0;
 
-    //MODE SINGLE_8BIT; START Start Immediately;
-    ADC0.COMMAND = 0x1;
+    //MODE BURST; START Start Immediately; 
+    ADC0.COMMAND = 0x31;
 
     //RESOVR disabled; RESRDY disabled; SAMPOVR disabled; SAMPRDY disabled; TRIGOVR disabled; WCMP disabled; 
     ADC0.INTCTRL = 0x0;
