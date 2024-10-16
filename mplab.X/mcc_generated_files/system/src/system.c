@@ -12,7 +12,7 @@
  * @version Package Version 4.2.14
 */
 /*
-ï¿½ [2024] Microchip Technology Inc. and its subsidiaries.
+© [2024] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip
     software and any derivatives exclusively with Microchip products.
