@@ -1,8 +1,43 @@
 #include "../fsr.h"
 
-uint8_t initial_velocity_counter = 1000;
-uint8_t average_counter = 100;
+uint16_t initial_velocity_counter = 1000;
+uint16_t average_counter = 100;
+uint8_t threshold = 2;
 
+
+void play(Finger *finger) {
+    ADC0.MUXPOS = finger->adc_channel; // ADC0_GetConversion(adc_channel) will "or" not turn off other channels
+    uint32_t sample = ADC0_GetConversion(finger->adc_channel);
+    if (sample > threshold && !finger->note_on) {
+        finger->counter ++;
+        if (finger->initial_velocity < sample) finger->initial_velocity = sample;
+
+        if (finger->counter >= initial_velocity_counter){
+            #ifdef SILENT
+            printf("note on, channel: %i\n\r", finger->adc_channel);
+            printf("initial velocity: %u\n\r", finger->initial_velocity);
+            #endif
+            finger->note_on = true;
+            #ifndef SILENT
+            send_midi_note_on(0, finger->note, finger->initial_velocity);
+            #endif
+            finger->counter = 0;
+        }
+    } else if (sample < threshold && finger->note_on) {
+        finger->counter ++;
+        if (finger->counter >= average_counter) {
+            #ifdef SILENT
+            printf("note off, channel: %i\n\r", finger->adc_channel);
+            #endif
+            finger->note_on = false;
+            #ifndef SILENT
+            send_midi_note_off(0, finger->note, finger->initial_velocity);
+            #endif
+            finger->counter = 0;
+        }
+        
+    } else finger->counter = 0;
+}
 
 void play_note(Finger *finger) {
         if (finger->note_on == false) {
