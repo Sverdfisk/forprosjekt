@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "system.h": "c",
-        "fsr.h": "c"
+        "fsr.h": "c",
+        "freertos_interface.h": "c"
     }
 }
