@@ -51,9 +51,7 @@ int main(void)
     
     while(1)
     {
-        // play_note(pFinger_1); 
-        // play_note(pFinger_0);
-        play(pFinger_0);
-        play(pFinger_1);
+        play_note(pFinger_0);
+        play_note(pFinger_1);
     }    
 }
