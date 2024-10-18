@@ -1,8 +1,10 @@
 #include "../fsr.h"
 
+
 uint16_t initial_velocity_counter = 100;
 uint16_t note_off_counter = 100;
 uint8_t threshold = 10;
+
 
 
 void play_note(Finger *finger) {
