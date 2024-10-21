@@ -36,6 +36,7 @@
 
 #ifndef MCC_H
 #define	MCC_H
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {
@@ -52,6 +53,9 @@ extern "C" {
 #include "../freertos/freertos_interface.h"
 #include "../../modules/fsr.h"
 #include "../../modules/midi.h"
+#include "../../nanomidi-master/include/nanomidi/encoder.h"
+#include "../../nanomidi-master/include/nanomidi/common.h"
+#include "../../nanomidi-master/include/nanomidi/messages.h"
 
 /**
  * @ingroup systemdriver
