@@ -43,9 +43,10 @@ int main(void)
     #ifdef SILENT
     printf("\nHello MidiGlove\r\n");
     #endif
+    struct midi_message message;
 
-    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note = 60, .note_on = false, .counter = 0};
-    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note = 61, .note_on = false, .counter = 0};
+    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note = 60, .note_on = false, .counter = 0, message.channel = 0};
+    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note = 61, .note_on = false, .counter = 0, message.channel = 0};
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
     

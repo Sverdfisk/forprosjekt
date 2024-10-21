@@ -7,17 +7,19 @@
 
 #ifndef MDI_H
 #define	MDI_H
+#pragma once
+
+#include "../mcc_generated_files/system/system.h"
 
 #ifdef	__cplusplus
 extern "C" {
 #endif
 
-#include "../mcc_generated_files/system/system.h"
     
 // Send a MIDI message using printf
-void send_midi_note_on(uint8_t channel, uint8_t note, uint8_t velocity);
+void send_midi_note_on(Finger *finger);
 
-void send_midi_note_off(uint8_t channel, uint8_t note, uint8_t velocity);
+void send_midi_note_off(Finger *finger);
 
 
 #ifdef	__cplusplus

@@ -2,6 +2,10 @@
     "files.associations": {
         "system.h": "c",
         "fsr.h": "c",
-        "freertos_interface.h": "c"
+        "freertos_interface.h": "c",
+        "compiler.h": "c",
+        "encoder.h": "c",
+        "messages.h": "c",
+        "midi.h": "c"
     }
 }

@@ -23,7 +23,7 @@ void play_note(Finger *finger) {
             #endif
             finger->note_on = true;
             #ifndef SILENT
-            send_midi_note_on(0, finger->note, finger->initial_velocity);
+            send_midi_note_on(finger);
             #endif
             finger->counter = 0;
         }
@@ -35,7 +35,7 @@ void play_note(Finger *finger) {
             #endif
             finger->note_on = false;
             #ifndef SILENT
-            send_midi_note_off(0, finger->note, finger->initial_velocity);
+            send_midi_note_off(finger);
             #endif
             finger->initial_velocity = 0;
             finger->counter = 0;
