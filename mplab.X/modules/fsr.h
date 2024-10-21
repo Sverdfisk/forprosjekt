@@ -8,7 +8,6 @@
 #ifndef FSR_H
 #define	FSR_H
 
-#include "../mcc_generated_files/system/utils/compiler.h"
 #include "../mcc_generated_files/adc/adc0.h"
 #include "../nanomidi-master/include/nanomidi/messages.h"
 
