@@ -6,7 +6,6 @@ uint16_t note_off_counter = 100;
 uint8_t threshold = 10;
 
 
-
 void play_note(Finger *finger) {
     DELAY_microseconds(20);
     ADC0.MUXPOS = finger->adc_channel; // ADC0_GetConversion(adc_channel) will "or" not turn off other channels
