@@ -13,6 +13,7 @@ void play_note(Finger *finger) {
     ADC0.MUXPOS = 0;
     if (sample >= threshold && !finger->note_on) {
         finger->counter ++;
+        // can be used to get max over a period
         // if (finger->initial_velocity <= sample) finger->initial_velocity = sample;
 
         if (finger->counter >= initial_velocity_counter){

@@ -12,7 +12,6 @@ void send_midi_note_on(Finger *finger) {
 }
 
 void send_midi_note_off(Finger *finger) {
-    // could maybe set data.note_off.note and ...velocity in note on function
     finger->message.type = MIDI_TYPE_NOTE_OFF;
     struct midi_message *pMessage = &finger->message;
     midi_encode(pMessage);
