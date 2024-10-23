@@ -3,13 +3,14 @@
 
 uint16_t initial_velocity_counter = 100;
 uint16_t note_off_counter = 100;
-uint8_t threshold = 10;
-
+uint8_t threshold = 20;
+#define SILENT
 
 void play_note(Finger *finger) {
     DELAY_microseconds(20);
-    ADC0.MUXPOS = finger->adc_channel; // ADC0_GetConversion(adc_channel) will "or" not turn off other channels
-    uint32_t sample = ADC0_GetConversion(finger->adc_channel);
+    ADC0.MUXPOS = finger->fsr_channel; // ADC0_GetConversion(fsr_channel) will "or" not turn off other channels
+    uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
+    ADC0.MUXPOS = 0;
     if (sample >= threshold && !finger->note_on) {
         finger->counter ++;
         // if (finger->initial_velocity <= sample) finger->initial_velocity = sample;
@@ -17,8 +18,7 @@ void play_note(Finger *finger) {
         if (finger->counter >= initial_velocity_counter){
             finger->initial_velocity = sample;
             #ifdef SILENT
-            printf("note on, channel: %i\n\r", finger->adc_channel);
-            printf("initial velocity: %u\n\r", finger->initial_velocity);
+            printf("note %u on  channel: %i initial velocity: %u\n\r",finger->note, finger->fsr_channel, finger->initial_velocity);
             #endif
             finger->note_on = true;
             #ifndef SILENT
@@ -30,7 +30,7 @@ void play_note(Finger *finger) {
         finger->counter ++;
         if (finger->counter >= note_off_counter) {
             #ifdef SILENT
-            printf("note off, channel: %i\n\r", finger->adc_channel);
+            printf("note %u off channel: %i\n\r", finger->note, finger->fsr_channel);
             #endif
             finger->note_on = false;
             #ifndef SILENT

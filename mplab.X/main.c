@@ -45,14 +45,33 @@ int main(void)
     #endif
     struct midi_message message;
 
-    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note = 60, .note_on = false, .counter = 0, message.channel = 0};
-    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note = 61, .note_on = false, .counter = 0, message.channel = 0};
+    Finger finger_0 = { 
+        .fsr_channel = ADC_MUXPOS_AIN1_gc, 
+        .bend_channel = ADC_MUXPOS_AIN3_gc, 
+        .initial_velocity = 0,
+        .initial_note = 60,
+        .note = 60, 
+        .note_on = false, 
+        .counter = 0, 
+        message.channel = 0};
+    
+    Finger finger_1 = { 
+        .fsr_channel = ADC_MUXPOS_AIN2_gc,
+        // .bend_channel = ADC_MUXPOS_AIN4_gc,
+        .initial_velocity = 0,
+        .initial_note = 61,
+        .note = 61,
+        .note_on = false,
+        .counter = 0,
+        message.channel = 0};
+
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
-    test();
+
     while(1)
     {
         play_note(pFinger_0);
+        isBend(pFinger_0);
         play_note(pFinger_1);
     }    
 }
