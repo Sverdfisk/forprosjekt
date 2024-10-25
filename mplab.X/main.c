@@ -73,5 +73,6 @@ int main(void)
         play_note(pFinger_0);
         isBend(pFinger_0);
         play_note(pFinger_1);
+        // isBend(pFinger_1);
     }    
 }
