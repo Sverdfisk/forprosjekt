@@ -99,6 +99,7 @@
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
       <itemPath>midi.mc3</itemPath>
+      <itemPath>modules/defines.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

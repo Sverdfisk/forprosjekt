@@ -14,7 +14,7 @@ extern "C" {
 
 #include "../mcc_generated_files/system/system.h"
 
-void isBend(Finger* finger);
+void is_bend(Finger* finger);
 
 #ifdef	__cplusplus
 }

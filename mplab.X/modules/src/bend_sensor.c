@@ -2,7 +2,7 @@
 
 uint8_t bend_threshold = 240;
 
-void isBend(Finger* finger){
+void is_bend(Finger* finger){
     ADC0.MUXPOS = finger->bend_channel; // ADC0_GetConversion(adc_channel) will "or" not turn off other channels
     uint32_t sample = ADC0_GetConversion(finger->bend_channel);
     // printf("%u\r\n", sample);
@@ -12,5 +12,4 @@ void isBend(Finger* finger){
     } else {
         finger->note = finger->initial_note;
     }
-
 }

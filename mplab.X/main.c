@@ -81,11 +81,11 @@ int main(void)
 
     while(1)
     {
-        isBend(pFinger_0);
+        is_bend(pFinger_0);
         play_note(pFinger_0);
-        isBend(pFinger_1);
+        is_bend(pFinger_1);
         play_note(pFinger_1);
-        isBend(pFinger_2);
+        is_bend(pFinger_2);
         play_note(pFinger_2);
     }    
 }

@@ -1,10 +1,9 @@
 #include "../fsr.h"
-
+#include "../defines.h"
 
 uint16_t initial_velocity_counter = 100;
 uint16_t note_off_counter = 100;
 uint8_t threshold = 20;
-#define SILENT
 
 void play_note(Finger *finger) {
     DELAY_microseconds(20);

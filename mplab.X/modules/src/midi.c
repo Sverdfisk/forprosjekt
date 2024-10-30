@@ -1,6 +1,5 @@
 #include "../midi.h"
 
-// Send a MIDI message using printf
 void send_midi_note_on(Finger *finger) {
     finger->message.type = MIDI_TYPE_NOTE_ON;
     finger->message.data.note_on.note = finger->note;
