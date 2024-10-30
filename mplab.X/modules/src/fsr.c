@@ -9,12 +9,14 @@ void play_note(Finger *finger) {
     DELAY_microseconds(20);
     ADC0.MUXPOS = finger->fsr_channel; // ADC0_GetConversion(fsr_channel) will "or" not turn off other channels
     uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
+    // releasing the adc for other channels to use
     ADC0.MUXPOS = 0;
     if (sample >= threshold && !finger->note_on) {
         finger->counter ++;
         // can be used to get max over a period
         // if (finger->initial_velocity <= sample) finger->initial_velocity = sample;
 
+        // waiting for stable value before sending note on
         if (finger->counter >= initial_velocity_counter){
             finger->initial_velocity = sample;
             #ifdef SILENT
@@ -28,6 +30,8 @@ void play_note(Finger *finger) {
         }
     } else if (sample < threshold && finger->note_on) {
         finger->counter ++;
+        
+        // waiting for stable value before sending note off
         if (finger->counter >= note_off_counter) {
             #ifdef SILENT
             printf("note %u off channel: %i\n\r", finger->note, finger->fsr_channel);
@@ -39,6 +43,6 @@ void play_note(Finger *finger) {
             finger->initial_velocity = 0;
             finger->counter = 0;
         }
-        
+    // resetting counter if the value is not stable
     } else finger->counter = 0;
 }
