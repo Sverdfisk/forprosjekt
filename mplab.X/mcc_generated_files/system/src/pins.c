@@ -40,6 +40,8 @@ static void (*IO_PD1_InterruptHandler)(void);
 static void (*IO_PD2_InterruptHandler)(void);
 static void (*IO_PD3_InterruptHandler)(void);
 static void (*IO_PD4_InterruptHandler)(void);
+static void (*IO_PD5_InterruptHandler)(void);
+static void (*IO_PF3_InterruptHandler)(void);
 static void (*IO_PF2_InterruptHandler)(void);
 
 void PIN_MANAGER_Initialize()
@@ -107,6 +109,8 @@ void PIN_MANAGER_Initialize()
     IO_PD2_SetInterruptHandler(IO_PD2_DefaultInterruptHandler);
     IO_PD3_SetInterruptHandler(IO_PD3_DefaultInterruptHandler);
     IO_PD4_SetInterruptHandler(IO_PD4_DefaultInterruptHandler);
+    IO_PD5_SetInterruptHandler(IO_PD5_DefaultInterruptHandler);
+    IO_PF3_SetInterruptHandler(IO_PF3_DefaultInterruptHandler);
     IO_PF2_SetInterruptHandler(IO_PF2_DefaultInterruptHandler);
 }
 
@@ -189,6 +193,32 @@ void IO_PD4_DefaultInterruptHandler(void)
     // or set custom function using IO_PD4_SetInterruptHandler()
 }
 /**
+  Allows selecting an interrupt handler for IO_PD5 at application runtime
+*/
+void IO_PD5_SetInterruptHandler(void (* interruptHandler)(void)) 
+{
+    IO_PD5_InterruptHandler = interruptHandler;
+}
+
+void IO_PD5_DefaultInterruptHandler(void)
+{
+    // add your IO_PD5 interrupt custom code
+    // or set custom function using IO_PD5_SetInterruptHandler()
+}
+/**
+  Allows selecting an interrupt handler for IO_PF3 at application runtime
+*/
+void IO_PF3_SetInterruptHandler(void (* interruptHandler)(void)) 
+{
+    IO_PF3_InterruptHandler = interruptHandler;
+}
+
+void IO_PF3_DefaultInterruptHandler(void)
+{
+    // add your IO_PF3 interrupt custom code
+    // or set custom function using IO_PF3_SetInterruptHandler()
+}
+/**
   Allows selecting an interrupt handler for IO_PF2 at application runtime
 */
 void IO_PF2_SetInterruptHandler(void (* interruptHandler)(void)) 
@@ -240,6 +270,10 @@ ISR(PORTD_PORT_vect)
     {
        IO_PD4_InterruptHandler(); 
     }
+    if(VPORTD.INTFLAGS & PORT_INT5_bm)
+    {
+       IO_PD5_InterruptHandler(); 
+    }
     /* Clear interrupt flags */
     VPORTD.INTFLAGS = 0xff;
 }
@@ -247,6 +281,10 @@ ISR(PORTD_PORT_vect)
 ISR(PORTF_PORT_vect)
 { 
     // Call the interrupt handler for the callback registered at runtime
+    if(VPORTF.INTFLAGS & PORT_INT3_bm)
+    {
+       IO_PF3_InterruptHandler(); 
+    }
     if(VPORTF.INTFLAGS & PORT_INT2_bm)
     {
        IO_PF2_InterruptHandler(); 

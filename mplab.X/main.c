@@ -67,7 +67,7 @@ int main(void)
     
     Finger finger_2 = { 
         .fsr_channel = ADC_MUXPOS_AIN5_gc,
-        .bend_channel = ADC_MUXPOS_AIN6_gc,
+        .bend_channel = ADC_MUXPOS_AIN19_gc,
         .initial_velocity = 0,
         .initial_note = 62,
         .note = 62,
@@ -83,9 +83,9 @@ int main(void)
     {
         isBend(pFinger_0);
         play_note(pFinger_0);
-        // isBend(pFinger_1);
+        isBend(pFinger_1);
         play_note(pFinger_1);
-        // isBend(pFinger_2);
-        // play_note(pFinger_2);
+        isBend(pFinger_2);
+        play_note(pFinger_2);
     }    
 }
