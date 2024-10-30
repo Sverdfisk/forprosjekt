@@ -1,6 +1,6 @@
 #include "../bend_sensor.h"
 
-uint8_t bend_threshold = 240;
+uint8_t bend_threshold = 100;
 
 void is_bend(Finger* finger){
     ADC0.MUXPOS = finger->bend_channel; // ADC0_GetConversion(adc_channel) will "or" not turn off other channels
