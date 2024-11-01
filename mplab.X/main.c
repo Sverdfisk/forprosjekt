@@ -45,14 +45,47 @@ int main(void)
     #endif
     struct midi_message message;
 
-    Finger finger_0 = { .adc_channel = ADC_MUXPOS_AIN1_gc, .initial_velocity = 0, .note = 60, .note_on = false, .counter = 0, message.channel = 0};
-    Finger finger_1 = { .adc_channel = ADC_MUXPOS_AIN2_gc, .initial_velocity = 0, .note = 61, .note_on = false, .counter = 0, message.channel = 0};
+    Finger finger_0 = { 
+        .fsr_channel = ADC_MUXPOS_AIN1_gc, 
+        .bend_channel = ADC_MUXPOS_AIN2_gc, 
+        .initial_velocity = 0,
+        .initial_note = 60,
+        .note = 60, 
+        .note_on = false, 
+        .counter = 0, 
+        message.channel = 0};
+    
+    Finger finger_1 = { 
+        .fsr_channel = ADC_MUXPOS_AIN3_gc,
+        .bend_channel = ADC_MUXPOS_AIN4_gc,
+        .initial_velocity = 0,
+        .initial_note = 61,
+        .note = 61,
+        .note_on = false,
+        .counter = 0,
+        message.channel = 0};
+    
+    Finger finger_2 = { 
+        .fsr_channel = ADC_MUXPOS_AIN5_gc,
+        .bend_channel = ADC_MUXPOS_AIN19_gc,
+        .initial_velocity = 0,
+        .initial_note = 62,
+        .note = 62,
+        .note_on = false,
+        .counter = 0,
+        message.channel = 0};
+
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
-    
+    Finger* pFinger_2 = &finger_2;
+
     while(1)
     {
+        is_bend(pFinger_0);
         play_note(pFinger_0);
+        is_bend(pFinger_1);
         play_note(pFinger_1);
+        is_bend(pFinger_2);
+        play_note(pFinger_2);
     }    
 }

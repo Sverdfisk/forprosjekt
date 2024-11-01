@@ -85,14 +85,21 @@
         </logicalFolder>
         <itemPath>mcc_generated_files/FreeRTOSConfig.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="f1" displayName="nanomidi" projectFiles="true">
+        <itemPath>nanomidi-master/include/nanomidi/common.h</itemPath>
+        <itemPath>nanomidi-master/include/nanomidi/encoder.h</itemPath>
+        <itemPath>nanomidi-master/include/nanomidi/messages.h</itemPath>
+      </logicalFolder>
       <itemPath>modules/fsr.h</itemPath>
       <itemPath>modules/midi.h</itemPath>
+      <itemPath>modules/bend_sensor.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
       <itemPath>midi.mc3</itemPath>
+      <itemPath>modules/defines.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -229,8 +236,13 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
+      <logicalFolder name="f1" displayName="nanomidi" projectFiles="true">
+        <itemPath>nanomidi-master/src/nanomidi_encoder.c</itemPath>
+        <itemPath>nanomidi-master/src/nanomidi_internal.h</itemPath>
+      </logicalFolder>
       <itemPath>main.c</itemPath>
       <itemPath>modules/src/fsr.c</itemPath>
+      <itemPath>modules/src/bend_sensor.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

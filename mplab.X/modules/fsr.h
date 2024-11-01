@@ -15,8 +15,10 @@
 extern "C" {
 #endif
 typedef struct {
-    uint8_t adc_channel;
+    uint8_t fsr_channel;
+    uint8_t bend_channel;
     uint8_t initial_velocity;
+    uint8_t initial_note;
     uint8_t note;
     bool note_on;
     uint16_t counter;

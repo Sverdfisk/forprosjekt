@@ -31,7 +31,6 @@
     EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
     THIS SOFTWARE.
 */
-// #define SILENT
 
 
 #ifndef MCC_H
@@ -53,9 +52,10 @@ extern "C" {
 #include "../freertos/freertos_interface.h"
 #include "../../modules/fsr.h"
 #include "../../modules/midi.h"
-#include "../../nanomidi-master/include/nanomidi/encoder.h"
+#include "../../modules/bend_sensor.h"
 #include "../../nanomidi-master/include/nanomidi/common.h"
 #include "../../nanomidi-master/include/nanomidi/messages.h"
+#include "../../modules/defines.h"
 
 /**
  * @ingroup systemdriver

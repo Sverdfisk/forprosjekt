@@ -143,8 +143,12 @@ size_t midi_encode(struct midi_message *msg)
 	}
 
 	if (length > 0) {
- 			// printf("got to encoder\r\n");
-		printf("%c%c%c", buffer[0],buffer[1],buffer[2]);
+		if (length == 2){
+			// sends midi message over printf
+			printf("%c%c", buffer[0],buffer[1]);
+		} else {
+			printf("%c%c%c", buffer[0],buffer[1],buffer[2]);
+		}
 	}
 
 	return false;
