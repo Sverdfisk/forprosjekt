@@ -37,11 +37,22 @@
 /*
     Main application
 */
+
+
+void reset(Finger* f0, Finger* f1, Finger* f2){
+    if (f0->done && f1->done && f2->done){
+        play_note(f0);
+        ring_buffer_reset(f0);
+        ring_buffer_reset(f1);
+        ring_buffer_reset(f2);  
+    }
+}
+
 int main(void)
 {
     SYSTEM_Initialize();
     #ifdef SILENT
-    printf("\nHello MidiGlove\r\n");
+    // printf("\nHello MidiGlove\r\n");
     #endif
     struct midi_message message;
 
@@ -53,7 +64,11 @@ int main(void)
         .note = 60, 
         .note_on = false, 
         .counter = 0, 
-        message.channel = 0};
+        message.channel = 0,
+        .head = 0,
+        .count = 0,
+        .done = false
+        };
     
     Finger finger_1 = { 
         .fsr_channel = ADC_MUXPOS_AIN3_gc,
@@ -63,7 +78,11 @@ int main(void)
         .note = 61,
         .note_on = false,
         .counter = 0,
-        message.channel = 0};
+        message.channel = 0,
+        .head = 0,
+        .count = 0,
+        .done = false
+        };
     
     Finger finger_2 = { 
         .fsr_channel = ADC_MUXPOS_AIN5_gc,
@@ -73,12 +92,16 @@ int main(void)
         .note = 62,
         .note_on = false,
         .counter = 0,
-        message.channel = 0};
+        message.channel = 0,
+        .head = 0,
+        .count = 0,
+        .done = false
+        };
 
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
     Finger* pFinger_2 = &finger_2;
-
+    
     while(1)
     {
         is_bend(pFinger_0);
@@ -87,5 +110,6 @@ int main(void)
         play_note(pFinger_1);
         is_bend(pFinger_2);
         play_note(pFinger_2);
+        reset(pFinger_0, pFinger_1, pFinger_2);
     }    
 }

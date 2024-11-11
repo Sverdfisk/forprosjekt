@@ -93,6 +93,7 @@
       <itemPath>modules/fsr.h</itemPath>
       <itemPath>modules/midi.h</itemPath>
       <itemPath>modules/bend_sensor.h</itemPath>
+      <itemPath>impulse_response_test.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -243,6 +244,7 @@
       <itemPath>main.c</itemPath>
       <itemPath>modules/src/fsr.c</itemPath>
       <itemPath>modules/src/bend_sensor.c</itemPath>
+      <itemPath>impulse_response_test.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
