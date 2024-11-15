@@ -38,16 +38,6 @@
     Main application
 */
 
-
-void reset(Finger* f0, Finger* f1, Finger* f2){
-    if (f0->done && f1->done && f2->done){
-        play_note(f0);
-        ring_buffer_reset(f0);
-        ring_buffer_reset(f1);
-        ring_buffer_reset(f2);  
-    }
-}
-
 int main(void)
 {
     SYSTEM_Initialize();
@@ -110,6 +100,11 @@ int main(void)
         play_note(pFinger_1);
         is_bend(pFinger_2);
         play_note(pFinger_2);
-        reset(pFinger_0, pFinger_1, pFinger_2);
+        if (pFinger_0->done && pFinger_1->done && pFinger_ pFinger_2->done){
+            play_note(pFinger_0); // to make sure data is send before reset
+            ring_buffer_reset(pFinger_0);
+            ring_buffer_reset(pFin ger_1);
+            ring_buffer_reset(pFinger_2);  
+        }  
     }    
 }
