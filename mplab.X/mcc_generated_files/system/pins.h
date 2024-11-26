@@ -190,6 +190,25 @@
 #define IO_PF3_EnableInterruptForLowLevelSensing() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
 #define PF3_SetInterruptHandler IO_PF3_SetInterruptHandler
 
+//get/set IO_PD0 aliases
+#define IO_PD0_SetHigh() do { PORTD_OUTSET = 0x1; } while(0)
+#define IO_PD0_SetLow() do { PORTD_OUTCLR = 0x1; } while(0)
+#define IO_PD0_Toggle() do { PORTD_OUTTGL = 0x1; } while(0)
+#define IO_PD0_GetValue() (VPORTD.IN & (0x1 << 0))
+#define IO_PD0_SetDigitalInput() do { PORTD_DIRCLR = 0x1; } while(0)
+#define IO_PD0_SetDigitalOutput() do { PORTD_DIRSET = 0x1; } while(0)
+#define IO_PD0_SetPullUp() do { PORTD_PIN0CTRL  |= PORT_PULLUPEN_bm; } while(0)
+#define IO_PD0_ResetPullUp() do { PORTD_PIN0CTRL  &= ~PORT_PULLUPEN_bm; } while(0)
+#define IO_PD0_SetInverted() do { PORTD_PIN0CTRL  |= PORT_INVEN_bm; } while(0)
+#define IO_PD0_ResetInverted() do { PORTD_PIN0CTRL  &= ~PORT_INVEN_bm; } while(0)
+#define IO_PD0_DisableInterruptOnChange() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x0 ; } while(0)
+#define IO_PD0_EnableInterruptForBothEdges() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x1 ; } while(0)
+#define IO_PD0_EnableInterruptForRisingEdge() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x2 ; } while(0)
+#define IO_PD0_EnableInterruptForFallingEdge() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x3 ; } while(0)
+#define IO_PD0_DisableDigitalInputBuffer() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x4 ; } while(0)
+#define IO_PD0_EnableInterruptForLowLevelSensing() do { PORTD.PIN0CTRL = (PORTD.PIN0CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
+#define PD0_SetInterruptHandler IO_PD0_SetInterruptHandler
+
 //get/set IO_PF2 aliases
 #define IO_PF2_SetHigh() do { PORTF_OUTSET = 0x4; } while(0)
 #define IO_PF2_SetLow() do { PORTF_OUTCLR = 0x4; } while(0)
@@ -384,6 +403,27 @@ void IO_PF3_DefaultInterruptHandler(void);
  * @return none
  */
 void IO_PF3_SetInterruptHandler(void (* interruptHandler)(void)) ; 
+
+/**
+ * @ingroup  pinsdriver
+ * @brief Default Interrupt Handler for IO_PD0 pin. 
+ *        This is a predefined interrupt handler to be used together with the IO_PD0_SetInterruptHandler() method.
+ *        This handler is called every time the IO_PD0 ISR is executed. 
+ * @pre PIN_MANAGER_Initialize() has been called at least once
+ * @param none
+ * @return none
+ */
+void IO_PD0_DefaultInterruptHandler(void);
+
+/**
+ * @ingroup  pinsdriver
+ * @brief Interrupt Handler Setter for IO_PD0 pin input-sense-config functionality.
+ *        Allows selecting an interrupt handler for IO_PD0 at application runtime
+ * @pre PIN_MANAGER_Initialize() has been called at least once
+ * @param InterruptHandler function pointer.
+ * @return none
+ */
+void IO_PD0_SetInterruptHandler(void (* interruptHandler)(void)) ; 
 
 /**
  * @ingroup  pinsdriver

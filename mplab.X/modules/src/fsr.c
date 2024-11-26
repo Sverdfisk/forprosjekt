@@ -1,5 +1,6 @@
 #include "../fsr.h"
 #include "../defines.h"
+#include "../../mcc_generated_files/system/pins.h"
 
 uint16_t initial_velocity_counter = 512;
 uint16_t note_off_counter = 100;
@@ -20,6 +21,7 @@ void play_note(Finger *finger) {
     uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
     // releasing the adc for other channels to use
     // ADC0.MUXPOS = 0;
+    IO_PD0_Toggle();
     ring_buffer_write(finger, sample);
 
     if (sample >= threshold && !finger->note_on) {

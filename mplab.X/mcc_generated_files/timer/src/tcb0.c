@@ -47,8 +47,8 @@ void (*TCB0_CAPT_isr_cb)(void) = NULL;
 
 void TCB0_Initialize(void)
 {
-    // CCMP 4; 
-    TCB0.CCMP = 0x4;
+    // CCMP 24; 
+    TCB0.CCMP = 0x18;
 
     // CNT undefined; 
     TCB0.CNT = 0x0;

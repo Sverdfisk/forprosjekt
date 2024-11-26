@@ -94,17 +94,11 @@ int main(void)
     
     while(1)
     {
-        is_bend(pFinger_0);
         play_note(pFinger_0);
-        is_bend(pFinger_1);
-        play_note(pFinger_1);
-        is_bend(pFinger_2);
-        play_note(pFinger_2);
-        if (pFinger_0->done && pFinger_1->done && pFinger_ pFinger_2->done){
+        
+        if (pFinger_0->done){
             play_note(pFinger_0); // to make sure data is send before reset
             ring_buffer_reset(pFinger_0);
-            ring_buffer_reset(pFin ger_1);
-            ring_buffer_reset(pFinger_2);  
         }  
     }    
 }
