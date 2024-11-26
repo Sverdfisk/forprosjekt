@@ -3,7 +3,7 @@
 
 uint16_t initial_velocity_counter = 512;
 uint16_t note_off_counter = 100;
-uint8_t threshold = 20;
+uint8_t threshold = 2;
 bool test_complete = false;
 
 void play_note(Finger *finger) {
