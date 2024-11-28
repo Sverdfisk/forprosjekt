@@ -14,6 +14,9 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
+
+#define BUFFER_SIZE 512 // Adjust buffer size as needed
+
 typedef struct {
     uint8_t fsr_channel;
     uint8_t bend_channel;
@@ -23,9 +26,13 @@ typedef struct {
     bool note_on;
     uint16_t counter;
     struct midi_message message;
+    uint8_t buffer[BUFFER_SIZE];
 } Finger;
 
 void play_note(Finger* finger);
+
+double calculate_slope(uint8_t x[], uint8_t y[], int n);
+int* create_list(int n);
 #ifdef	__cplusplus
 }
 #endif
