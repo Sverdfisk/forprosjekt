@@ -1,9 +1,11 @@
 #include "../fsr.h"
 #include "../defines.h"
+#include "../../mcc_generated_files/system/pins.h"
 
-uint16_t initial_velocity_counter = 10;
+
+uint16_t initial_velocity_counter = 2;
 uint16_t note_off_counter = 200;
-uint8_t threshold = 5;
+uint8_t threshold = 10;
 
 #define SLOPE_FACTOR 32
 void play_note(Finger *finger) {
@@ -14,20 +16,23 @@ void play_note(Finger *finger) {
     ADC0.MUXPOS = 0;
     if (sample >= threshold && !finger->note_on) {
         finger->counter ++;
+            IO_PD0_SetLow();
 
-        uint8_t x[finger->counter];
-        for (int i = 0; i < finger->counter; i++) x[i] = i + 1;
+
+        // uint8_t x[finger->counter];
+        // for (int i = 0; i < finger->counter; i++) x[i] = i + 1;
         
-        finger->buffer[finger->counter] = sample;
-        double slope = calculate_slope(x, finger->buffer, finger->counter);
+        // finger->buffer[finger->counter] = sample;
+        // double slope = calculate_slope(x, finger->buffer, finger->counter);
+        // uint8_t initial_velocity = slope * SLOPE_FACTOR;
         // printf("slope: %f\n\r", slope);
-        uint8_t initial_velocity = slope * SLOPE_FACTOR;
         // can be used to get max over a period
-        // if (finger->initial_velocity < initial_velocity) finger->initial_velocity = initial_velocity;
-
+        if (finger->initial_velocity < sample) finger->initial_velocity = sample;
+        // printf("%u\n\r", sample);
         // waiting for stable value before sending note on
         if (finger->counter >= initial_velocity_counter){
-            finger->initial_velocity = initial_velocity;
+            // finger->initial_velocity = initial_velocity;
+            // finger->initial_velocity = sample;
             #ifdef SILENT
             printf("note %u on  channel: %i initial velocity: %u\n\r",finger->note, finger->fsr_channel, finger->initial_velocity);
             #endif
@@ -35,6 +40,8 @@ void play_note(Finger *finger) {
             #ifndef SILENT
             send_midi_note_on(finger);
             #endif
+            IO_PD0_SetHigh();
+
             finger->counter = 0;
         }
     } else if (sample < threshold && finger->note_on) {

@@ -78,6 +78,8 @@ int main(void)
     Finger* pFinger_0 = &finger_0;
     Finger* pFinger_1 = &finger_1;
     Finger* pFinger_2 = &finger_2;
+    IO_PD0_SetHigh();
+
 
     while(1)
     {
