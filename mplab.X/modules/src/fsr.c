@@ -4,6 +4,8 @@
 uint16_t initial_velocity_counter = 10;
 uint16_t note_off_counter = 200;
 uint8_t threshold = 5;
+
+#define SLOPE_FACTOR 32
 void play_note(Finger *finger) {
     // DELAY_microseconds(100);
     ADC0.MUXPOS = finger->fsr_channel; // ADC0_GetConversion(fsr_channel) will "or" not turn off other channels
@@ -19,7 +21,7 @@ void play_note(Finger *finger) {
         finger->buffer[finger->counter] = sample;
         double slope = calculate_slope(x, finger->buffer, finger->counter);
         // printf("slope: %f\n\r", slope);
-        uint8_t initial_velocity = slope*32;
+        uint8_t initial_velocity = slope * SLOPE_FACTOR;
         // can be used to get max over a period
         // if (finger->initial_velocity < initial_velocity) finger->initial_velocity = initial_velocity;
 
