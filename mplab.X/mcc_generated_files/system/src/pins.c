@@ -42,6 +42,7 @@ static void (*IO_PD3_InterruptHandler)(void);
 static void (*IO_PD4_InterruptHandler)(void);
 static void (*IO_PD5_InterruptHandler)(void);
 static void (*IO_PF3_InterruptHandler)(void);
+static void (*IO_PD0_InterruptHandler)(void);
 static void (*IO_PF2_InterruptHandler)(void);
 
 void PIN_MANAGER_Initialize()
@@ -56,7 +57,7 @@ void PIN_MANAGER_Initialize()
   /* DIR Registers Initialization */
     PORTA.DIR = 0x0;
     PORTC.DIR = 0x0;
-    PORTD.DIR = 0x40;
+    PORTD.DIR = 0x41;
     PORTF.DIR = 0x4;
 
   /* PINxCTRL registers Initialization */
@@ -111,6 +112,7 @@ void PIN_MANAGER_Initialize()
     IO_PD4_SetInterruptHandler(IO_PD4_DefaultInterruptHandler);
     IO_PD5_SetInterruptHandler(IO_PD5_DefaultInterruptHandler);
     IO_PF3_SetInterruptHandler(IO_PF3_DefaultInterruptHandler);
+    IO_PD0_SetInterruptHandler(IO_PD0_DefaultInterruptHandler);
     IO_PF2_SetInterruptHandler(IO_PF2_DefaultInterruptHandler);
 }
 
@@ -219,6 +221,19 @@ void IO_PF3_DefaultInterruptHandler(void)
     // or set custom function using IO_PF3_SetInterruptHandler()
 }
 /**
+  Allows selecting an interrupt handler for IO_PD0 at application runtime
+*/
+void IO_PD0_SetInterruptHandler(void (* interruptHandler)(void)) 
+{
+    IO_PD0_InterruptHandler = interruptHandler;
+}
+
+void IO_PD0_DefaultInterruptHandler(void)
+{
+    // add your IO_PD0 interrupt custom code
+    // or set custom function using IO_PD0_SetInterruptHandler()
+}
+/**
   Allows selecting an interrupt handler for IO_PF2 at application runtime
 */
 void IO_PF2_SetInterruptHandler(void (* interruptHandler)(void)) 
@@ -273,6 +288,10 @@ ISR(PORTD_PORT_vect)
     if(VPORTD.INTFLAGS & PORT_INT5_bm)
     {
        IO_PD5_InterruptHandler(); 
+    }
+    if(VPORTD.INTFLAGS & PORT_INT0_bm)
+    {
+       IO_PD0_InterruptHandler(); 
     }
     /* Clear interrupt flags */
     VPORTD.INTFLAGS = 0xff;

@@ -3,7 +3,7 @@
 
 uint16_t initial_velocity_counter = 512;
 uint16_t note_off_counter = 100;
-uint8_t threshold = 2;
+uint8_t threshold = 10;
 bool test_complete = false;
 
 void play_note(Finger *finger) {
@@ -20,10 +20,11 @@ void play_note(Finger *finger) {
     uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
     // releasing the adc for other channels to use
     // ADC0.MUXPOS = 0;
-    ring_buffer_write(finger, sample);
 
     if (sample >= threshold && !finger->note_on) {
+        finger->buffer[finger->counter] = sample; 
         finger->counter ++;
+        // ring_buffer_write(finger, sample);
         // can be used to get max over a period
         // if (finger->initial_velocity <= sample) finger->initial_velocity = sample;
     
@@ -38,7 +39,6 @@ void play_note(Finger *finger) {
             // #ifndef SILENT
             // send_midi_note_on(finger);
             // #endif
-            finger->counter = 0;
         }
     } else if (sample < threshold && finger->note_on) {
         finger->counter ++;
@@ -69,9 +69,9 @@ void ring_buffer_write(Finger* finger, uint8_t value) {
 }
 
 void ring_buffer_read_all(Finger* finger) {
-    for (int i = 0; i < finger->count; i++) {
-        int index = (finger->head - finger->count + i + BUFFER_SIZE) % BUFFER_SIZE;
-        printf("id%u:%u,", finger->initial_note-59, finger->buffer[index]);
+    for (int i = 0; i < finger->counter; i++) {
+        // int index = (finger->head - finger->count + i + BUFFER_SIZE) % BUFFER_SIZE;
+        printf("id%u:%u,", finger->initial_note-59, finger->buffer[i]);
     }
     printf("\n");
 }
@@ -80,6 +80,8 @@ void ring_buffer_reset(Finger* finger) {
     finger->head = 0;
     finger->count = 0;
     finger->done = false;
+    finger->counter = 0;
+
     //set buffer to 0
     for (int i = 0; i < BUFFER_SIZE; i++) {
         finger->buffer[i] = 0;
