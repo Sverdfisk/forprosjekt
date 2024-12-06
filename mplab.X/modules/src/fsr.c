@@ -14,9 +14,10 @@ void play_note(Finger *finger) {
     uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
     // releasing the adc for other channels to use
     ADC0.MUXPOS = 0;
+    // if(finger->fsr_channel == ADC_MUXPOS_AIN1_gc) IO_PD0_Toggle();
     if (sample >= threshold && !finger->note_on) {
         finger->counter ++;
-            IO_PD0_SetLow();
+        IO_PD0_SetLow();
 
 
         // uint8_t x[finger->counter];
