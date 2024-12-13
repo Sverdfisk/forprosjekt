@@ -1,5 +1,7 @@
 #include "../fsr.h"
 #include "../defines.h"
+#include "../../mcc_generated_files/system/pins.h"
+
 
 uint16_t initial_velocity_counter = 512;
 uint16_t note_off_counter = 100;
@@ -7,6 +9,7 @@ uint8_t threshold = 10;
 bool test_complete = false;
 
 void play_note(Finger *finger) {
+    // used to check if the test is complete
     if (test_complete && !finger->done) {
         ring_buffer_read_all(finger);
         finger->done = true;
@@ -14,26 +17,24 @@ void play_note(Finger *finger) {
         test_complete = false;
         return;
     }
-
-    // DELAY_microseconds(20);
     ADC0.MUXPOS = finger->fsr_channel; // ADC0_GetConversion(fsr_channel) will "or" not turn off other channels
     uint32_t sample = ADC0_GetConversion(finger->fsr_channel);
-    // releasing the adc for other channels to use
-    // ADC0.MUXPOS = 0;
 
     if (sample >= threshold && !finger->note_on) {
-        finger->buffer[finger->counter] = sample; 
+        if (finger->fsr_channel == ADC_MUXPOS_AIN5_gc) IO_PD0_Toggle();
+        // finger->buffer[finger->counter] = sample; 
         finger->counter ++;
-        // ring_buffer_write(finger, sample);
+        ring_buffer_write(finger, sample);
         // can be used to get max over a period
         // if (finger->initial_velocity <= sample) finger->initial_velocity = sample;
     
         // waiting for stable value before sending note on
         if (finger->counter >= initial_velocity_counter){
             test_complete = true;
-            // finger->initial_velocity = sample;
+            IO_PD0_SetLow();
+            finger->initial_velocity = sample;
             // #ifdef SILENT
-            // printf("note %u on  channel: %i initial velocity: %u\n\r",finger->note, finger->fsr_channel, finger->initial_velocity);
+            printf("note %u on  channel: %i initial velocity: %u\n\r",finger->note, finger->fsr_channel, finger->initial_velocity);
             // #endif
             // finger->note_on = true;
             // #ifndef SILENT
@@ -69,9 +70,9 @@ void ring_buffer_write(Finger* finger, uint8_t value) {
 }
 
 void ring_buffer_read_all(Finger* finger) {
-    for (int i = 0; i < finger->counter; i++) {
-        // int index = (finger->head - finger->count + i + BUFFER_SIZE) % BUFFER_SIZE;
-        printf("id%u:%u,", finger->initial_note-59, finger->buffer[i]);
+    for (int i = 0; i < finger->count; i++) {
+        int index = (finger->head - finger->count + i + BUFFER_SIZE) % BUFFER_SIZE;
+        printf("id%u:%u,", finger->initial_note-59, finger->buffer[index]);
     }
     printf("\n");
 }

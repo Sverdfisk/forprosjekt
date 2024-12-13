@@ -7,6 +7,7 @@
         "encoder.h": "c",
         "messages.h": "c",
         "midi.h": "c",
-        "bend_sensor.h": "c"
+        "bend_sensor.h": "c",
+        "pins.h": "c"
     }
 }
